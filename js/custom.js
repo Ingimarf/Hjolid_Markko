@@ -1,20 +1,8 @@
 $(document).ready(function () {
     $(".slices > a").click(function () {
-        $(".slices > a").removeClass("hideCont")
-        $(".leaderLine").addClass('show');
-        $(".sdg-Content > div, .sdgTextBlocks > div, .lines .leaderLine, .slices2 .darkSlice").removeClass("hideCont");
-        $($(this).data("target")).addClass("hideCont");
-        $(".logo").hide();
+        $(".leaderLine").addClass('show');$(".logo").hide();
         $(".sdgTextBlocks").addClass("show");
-        $(".sdgTextBlocks > div").addClass("change");
-        $('.sliceActive').removeClass("sliceActive");
-        $(".slices > a").addClass("sliceSmall");
-        $(this).toggleClass("sliceActive");
-        $(this).removeClass("sliceSmall");
-        $(".slices2 .darkSlice").addClass("dSliceTrans");
-        $(".cirPlc").removeClass("show");
-        $('.reset').addClass("resetActive");
-        $(".sdg-Content").addClass("smallCirc");
+        $(".sdgTextBlocks > div").addClass("change");$('.reset').addClass("resetActive");
         $(".mainContainer").addClass("spiderMode");
 
         setTimeout(function () {
