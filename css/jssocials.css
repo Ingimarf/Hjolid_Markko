@@ -1,0 +1,10 @@
+.jssocials-shares {  margin: 0; }
+.jssocials-shares * {  box-sizing: border-box; }
+.jssocials-share {  display: inline-block;  vertical-align: top; }
+
+.jssocials-share:first-child {  margin-left: 0; }
+.jssocials-share:last-child {  margin-right: 0; }
+.jssocials-share-logo {vertical-align: middle;  font-size: 24px; }
+img.jssocials-share-logo {  width: auto;  height: 1em; }
+.jssocials-share-link {  display: inline-block;  text-align: center;  text-decoration: none;  line-height: 1; }
+

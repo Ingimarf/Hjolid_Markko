@@ -1,0 +1,26 @@
+<svg width="218" height="218" xmlns="http://www.w3.org/2000/svg">
+ <style type="text/css">.st0{fill:#F26A2B;}
+	.st1{fill:#FFFFFF;}
+	.st2{enable-background:new    ;}</style>
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_1">
+   <circle id="svg_2" r="108" cy="108.939316" cx="109.382172" class="st0"/>
+  </g>
+  <g id="svg_3">
+   <path id="svg_4" d="m55.606445,56.758301c-1.75,2.450195 -4.850097,3.100586 -7.700195,3.100586c-9.100586,0 -10.650879,-6.650391 -10.650879,-12.250977c0,-5.550293 1.650391,-12.150879 12.650879,-12.150879c10.500488,0 13.351074,5.550781 13.351074,16.701172c0,13.101074 -2.350586,22.201172 -15.201172,22.201172c-4.350097,0 -8.350586,-1.049805 -9.800781,-1.799805l0,-7.40039c2.300293,1.199707 5.500488,1.850097 8.850586,1.850097c7.250488,0 8.250488,-4.050293 8.500488,-10.250976zm-6,-4c4.050293,0 5.650391,-1.5 5.650391,-5.150391s-1.600098,-5.15039 -5.100586,-5.15039c-3.5,0 -5.050293,1.5 -5.050293,5.15039s1.550293,5.150391 4.500488,5.150391z" class="st1"/>
+  </g>
+  <path id="svg_42" d="m136.201737,112.021286l-12.511109,-6.866135l0,-13.735481c0,-0.289856 -0.162514,-0.558098 -0.426918,-0.703026l-12.933815,-7.101547c-0.264404,-0.144134 -0.588585,-0.144134 -0.852989,0l-12.935501,7.101547c-0.264404,0.144928 -0.426918,0.41317 -0.426918,0.703026l0,13.735481l-12.508583,6.866135c-0.264405,0.144928 -0.426918,0.41317 -0.426918,0.703026l0,14.205498c0,0.289871 0.162513,0.558097 0.426918,0.703033l12.935501,7.099945c0.132202,0.072067 0.278717,0.108902 0.426918,0.108902c0.147362,0 0.294716,-0.036835 0.426926,-0.108902l12.508575,-6.866135l12.507744,6.866135c0.132194,0.072067 0.278717,0.108902 0.426918,0.108902c0.147362,0 0.294716,-0.036026 0.426918,-0.108902l12.937187,-7.099945c0.264389,-0.144936 0.426926,-0.413178 0.426926,-0.703033l0,-14.205498c-0.001694,-0.289848 -0.163361,-0.55809 -0.42778,-0.703026zm-27.151742,13.50248l-10.375679,-5.69709l10.375679,-5.697098l0,11.394188zm12.079979,-19.899399l-10.373993,5.693893l0,-11.391785l10.373993,5.697892zm-12.079979,5.694694l-10.374839,-5.694694l10.374839,-5.69709l0,11.391784zm2.559823,1.405259l11.226989,-6.163109l11.230362,6.163109l-11.230362,6.165512l-11.226989,-6.165512zm10.373992,-8.506005l-10.373993,-5.69709l10.373993,-5.695488l0,11.392578zm-13.787651,-5.69709l-10.374839,5.69709l0,-11.392586l10.374839,5.695496zm-12.081665,34.103287l-11.228668,-6.163109l0,-12.331024l11.228668,6.166313l0,12.32782zm1.705986,0l0,-11.391785l10.37484,5.69709l-10.37484,5.694695zm37.101364,-6.163109l-11.231201,6.163109l0,-12.328629l11.231201,-6.166313l0,12.331833z" class="st1"/>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="18" id="svg_142" y="50.127049" x="73.426231" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="null" fill="#ffffff">Nýsköpun og</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="18" id="svg_143" y="69.143442" x="73.426231" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="null" fill="#ffffff">uppbygging</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="12" id="svg_144" y="148.81557" x="25.885249" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="null" fill="#ffffff">Byggja upp viðnámsþolna innviði</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="12" id="svg_145" y="163.241799" x="38.344265" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="null" fill="#ffffff">fyrir alla, stuðla að sjálfbærri</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="12" id="svg_146" y="177.01229" x="51.786887" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="null" fill="#ffffff">iðnvæðingu og hlúa að</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="12" id="svg_147" y="193.077863" x="82.934427" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="null" fill="#ffffff">nýsköpun</text>
+ </g>
+</svg>

@@ -1,0 +1,25 @@
+<svg width="217.99999999999997" height="217.99999999999997" xmlns="http://www.w3.org/2000/svg">
+ <style type="text/css">.st0{fill:#27BDE2;}
+	.st1{fill:#FFFFFF;}
+	.st2{enable-background:new    ;}</style>
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_1">
+   <circle id="svg_2" r="108" cy="108.939316" cx="109.382172" class="st0"/>
+  </g>
+  <g id="svg_3">
+   <path id="svg_4" d="m44.155762,48.808106c1.750488,-2.450196 4.90039,-3.100586 7.750488,-3.100586c9.100586,0 10.601074,6.65039 10.601074,12.250976c0,5.550293 -1.65039,12.150879 -12.650879,12.150879c-10.450683,0 -13.351074,-5.550293 -13.351074,-16.701172c0,-13.100586 2.400391,-22.201172 15.250977,-22.201172c4.300293,0 7.850586,1.049805 9.300781,1.799805l0,7.400391c-2.300293,-1.199707 -5.000488,-1.850098 -8.400391,-1.850098c-7.200683,0 -8.250488,4.050293 -8.500976,10.250977zm6.050781,4c-4.100586,0 -5.650391,1.5 -5.650391,5.15039s1.549805,5.150391 5.050293,5.150391c3.5,0 5.100098,-1.5 5.100098,-5.150391s-1.549805,-5.15039 -4.5,-5.15039z" class="st1"/>
+  </g>
+  <path id="svg_5" d="m133.899994,77c-0.100006,-0.099998 -0.300003,-0.199997 -0.399994,-0.199997l-46,0c-0.199997,0 -0.300003,0.099999 -0.400002,0.199997c-0.099998,0.199997 -0.099998,0.300003 -0.099998,0.5l7.699997,46.599998c0,0.300004 0.300003,0.400002 0.5,0.400002l9.5,0l0.599998,7.600006l-4,0l9.300003,9.300003l9.300004,-9.300003l-4,0l0.599998,-7.599998l9.599998,0c0.300004,0 0.5,-0.199997 0.5,-0.5l7.200005,-46.599999c0.199997,-0.100006 0.199997,-0.200012 0.099991,-0.400009zm-17.799996,37.400002c0,0 -2.099998,2.099998 -5.5,1.900001c-3.400001,0.199997 -5.5,-1.900001 -5.5,-1.900001c-3.400001,-3.400002 -2.199996,-7.699997 -1,-9.900002c0.699997,-1.400002 6,-9.300003 6.5,-10l0,-0.099998l0,0l0,0l0,0.099998c0.400002,0.699997 5.699997,8.599998 6.5,10c1.200005,2.199997 2.400002,6.400002 -1,9.900002zm14.599999,-27.5c-1.199997,-0.5 -2.800003,-0.400002 -4.300003,0.300003c-5.699997,2.300003 -9.599999,3.099998 -15.599999,1.300003c-3.800003,-1.199997 -7.300003,-3.699997 -11.5,-2.099999c-2.800003,1 -5.300003,1.900002 -8.5,1.900002l-1.799995,-9.400009l43,0l-1.300003,8z" class="st1"/>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="18" id="svg_99" y="47.932293" x="65.458322" stroke-width="0" stroke="#000" fill="#ffffff">Hreint vatn og</text>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="16" id="svg_100" y="66.682293" x="66.291655" stroke-width="0" stroke="#000" fill="#ffffff">hreinlætisaðstaða</text>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="12" id="svg_101" y="155.432291" x="24.208323" stroke-width="0" stroke="#000" fill="#ffffff">Tryggja aðgengi að og sjálfbæra</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="12" id="svg_104" y="170.43229" x="40.458322" stroke-width="0" stroke="#000" fill="#ffffff">nýtingu, allra á hreinu vatni</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="12" id="svg_105" y="185.015623" x="60.041655" stroke-width="0" stroke="#000" fill="#ffffff">og salernisaðstöðu</text>
+ </g>
+</svg>

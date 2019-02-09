@@ -1,0 +1,32 @@
+<svg width="218" height="218" xmlns="http://www.w3.org/2000/svg">
+ <style type="text/css">.st0{fill:#C7212F;}
+	.st1{fill:#FFFFFF;}
+	.st2{enable-background:new    ;}</style>
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_1">
+   <circle id="svg_2" r="108" cy="108.439316" cx="109.406334" class="st0"/>
+  </g>
+  <g id="svg_3">
+   <path id="svg_4" d="m71.90674,48.25879l5.10058,0l0,7.55029l-5.10058,0l0,8.85059l-7.75049,0l0,-8.85059l-15.80078,0l0,-4.95019l17.15088,-24.35157l6.40039,0l0,21.75147zm-7.75049,0l0.1001,-8.80078l-6.2002,8.95068l6.1001,-0.1499z" class="st1"/>
+  </g>
+  <g id="svg_22">
+   <polygon id="svg_23" points="101.6999969,95.6999969 79,82.5999985 79,125 101.6999969,131.8999939  " class="st1"/>
+   <polygon id="svg_24" points="104.1999969,95.8000031 104.1999969,131.8999939 127,125 127,82.5999985  " class="st1"/>
+   <path id="svg_25" d="m144.89999,81.5c0,-1.5 -1.19999,-2.7 -2.69999,-2.7s-2.7,1.2 -2.7,2.7l0,2.9l5.39999,0l0,-2.9l0,0z" class="st1"/>
+   <polygon id="svg_26" points="140.1999969,124.3000031 139.5,124.3000031 142.1999969,133.6000061 144.8999939,124.3000031    144.1999969,124.3000031 144.8999939,124.3000031 144.8999939,86.5 144.1999969,86.5 143.5,86.5 142.8000031,86.5 141.5,86.5    140.8000031,86.5 140.1999969,86.5 139.5,86.5 139.5,124.3000031  " class="st1"/>
+   <polygon id="svg_27" points="131.8999939,84.4000015 129.5,82.5 129.5,126.1999969 104.3000031,134.3000031    103.0999985,134.3000031 102.9000015,134.3000031 101.6999969,134.3000031 76.5999985,127.3000031 76.5999985,82.5    74.1999969,84.4000015 74.1999969,129 101.5999985,136.6000061 102.9000015,136.6000061 103.0999985,136.6000061    104.4000015,136.6000061 129.6999969,128.6000061 131.8999939,127.9000015  " class="st1"/>
+  </g>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="18" id="svg_120" y="40.718822" x="83.750034" stroke-width="0" stroke="#000" fill="#ffffff">Menntun</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="18" id="svg_121" y="62.218799" x="83.750034" stroke-width="0" stroke="#000" fill="#ffffff">fyrir alla</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="12" id="svg_122" y="152.718704" x="29.250091" stroke-width="0" stroke="#000" fill="#ffffff">Tryggja jafnan aðgang allra að</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="12" id="svg_123" y="168.718687" x="38.250082" stroke-width="0" stroke="#000" fill="#ffffff">góðri menntun og stuðla að</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="12" id="svg_124" y="183.218672" x="46.750073" stroke-width="0" stroke="#000" fill="#ffffff">tækifærum allra til náms</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="12" id="svg_125" y="198.218656" x="88.250029" stroke-width="0" stroke="#000" fill="#ffffff">alla ævi</text>
+ </g>
+</svg>
