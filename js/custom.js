@@ -7,7 +7,6 @@ jQuery.getJSON("./data.json").then(data => {
 $(document).ready(function() {
   $(".slices > a").click(function() {
     $(".leaderLine").addClass("show");
-    $(".logo").hide();
     $(".sdgTextBlocks").addClass("show");
     $(".sdgTextBlocks > div").addClass("change");
     $(".reset").addClass("resetActive");
@@ -36,7 +35,6 @@ $(document).ready(function() {
 
   $(".reset > a").on("click", function() {
     $(".slices > a").removeClass("hideCont");
-    $(".logo").show();
     $(".leaderLine").removeClass("show");
     $(".sdgTextBlocks").removeClass("show");
     $(".slices > a").removeClass("sliceSmall");
