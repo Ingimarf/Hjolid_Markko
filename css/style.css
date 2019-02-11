@@ -4,6 +4,7 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+
 html,
 body {
   font-size: 14px;
@@ -12,76 +13,94 @@ body {
   font-family: "apex_newbook", sans-serif;
   min-width: 980px;
 }
+
 body {
   background: url(../images/goal-1-grayImg.svg) no-repeat center center;
   background-size: 0 0;
   -webkit-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
 }
+
 body.text1 {
   background: url(../images/goal-1-grayImg.svg) no-repeat center center;
   background-size: 100% 100%;
 }
+
 body.text2 {
   background: url(../images/goal-2-grayImg.svg) no-repeat center center;
   background-size: 100% 100%;
 }
+
 body.text3 {
   background: url(../images/goal-3-grayImg.svg) no-repeat center center;
   background-size: 100% 100%;
 }
+
 body.text4 {
   background: url(../images/goal-4-grayImg.svg) no-repeat center center;
   background-size: 100% 100%;
 }
+
 body.text5 {
   background: url(../images/goal-5-grayImg.svg) no-repeat center center;
   background-size: 100% 100%;
 }
+
 body.text6 {
   background: url(../images/goal-6-grayImg.svg) no-repeat center center;
   background-size: 100% 100%;
 }
+
 body.text7 {
   background: url(../images/goal-7-grayImg.svg) no-repeat center center;
   background-size: 100% 100%;
 }
+
 body.text8 {
   background: url(../images/goal-8-grayImg.svg) no-repeat center center;
   background-size: 100% 100%;
 }
+
 body.text9 {
   background: url(../images/goal-9-grayImg.svg) no-repeat center center;
   background-size: 100% 100%;
 }
+
 body.text10 {
   background: url(../images/goal-10-grayImg.svg) no-repeat center center;
   background-size: 100% 100%;
 }
+
 body.text11 {
   background: url(../images/goal-11-grayImg.svg) no-repeat center center;
   background-size: 100% 100%;
 }
+
 body.text12 {
   background: url(../images/goal-12-grayImg.svg) no-repeat center center;
   background-size: 100% 100%;
 }
+
 body.text13 {
   background: url(../images/goal-13-grayImg.svg) no-repeat center center;
   background-size: 100% 100%;
 }
+
 body.text14 {
   background: url(../images/goal-14-grayImg.svg) no-repeat center center;
   background-size: 100% 100%;
 }
+
 body.text15 {
   background: url(../images/goal-15-grayImg.svg) no-repeat center center;
   background-size: 100% 100%;
 }
+
 body.text16 {
   background: url(../images/goal-16-grayImg.svg) no-repeat center center;
   background-size: 100% 100%;
 }
+
 body.text17 {
   background: url(../images/goal-17-grayImg.svg) no-repeat center center;
   background-size: 100% 100%;
@@ -91,27 +110,34 @@ ul,
 li {
   list-style: none;
 }
+
 a {
   outline: none;
 }
+
 a,
 img {
   outline: none;
   border: none;
   color: inherit;
 }
+
 a {
   text-decoration: none;
 }
+
 a:hover {
   text-decoration: none;
 }
+
 .clear {
   clear: both;
 }
+
 img {
   max-width: 100%;
 }
+
 :focus {
   outline: 1px solid #e5222f !important;
 }
@@ -124,48 +150,57 @@ img {
   margin: 0px auto 0;
   position: relative;
 }
+
 .conatiner.mainContainer {
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
+
 .conatiner.mainContainer.spiderMode {
   margin-top: 50px;
 }
+
 .conatiner-fluid {
   width: 100%;
   margin: 0 auto;
   position: relative;
   min-height: 100%;
 }
+
 .container-fluid {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 50px;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 70px;
 }
+
 .mainHeader {
   max-width: 1200px;
   margin: 20px auto;
 }
+
 .mainHeader .logoContainer {
   display: inline-block;
   -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
-  text-align: center;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
 }
+
 .logoContainer a {
   display: inline-block;
 }
+
 .mainHeader .logo {
-  height: 80px;
+  height: 100px;
 }
+
 .mainHeader .reset {
   width: 250px;
 }
+
 .mainHeader .reset a {
   width: 100%;
   text-align: center;
@@ -178,15 +213,17 @@ img {
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
+
 .mainHeader .reset a:hover {
   background: rgb(0, 130, 63);
   color: #fff;
 }
+
 .mainHeader .reset.resetActive {
   display: block;
 }
 
-.slices > a.hideCont {
+.slices>a.hideCont {
   opacity: 0.1;
   pointer-events: none;
 }
@@ -197,33 +234,38 @@ svg {
   position: relative;
   z-index: 1;
 }
+
 path.slice {
   stroke-width: 1px;
   stroke: #fff;
 }
+
 path.sliceBlack {
   stroke-width: 1px;
   stroke: transparent;
   pointer-events: none;
 }
+
 polyline {
   opacity: 1;
   stroke: black;
   stroke-width: 1px;
   fill: none;
 }
+
 .leaderLine {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
   -webkit-animation: dash 3s linear backwards;
-          animation: dash 3s linear backwards;
+  animation: dash 3s linear backwards;
   display: none;
 }
+
 .leaderLine.show {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
   -webkit-animation: dash 3s linear forwards;
-          animation: dash 3s linear forwards;
+  animation: dash 3s linear forwards;
   display: block;
 }
 
@@ -233,6 +275,7 @@ polyline {
     stroke-dashoffset: 0;
   }
 }
+
 @keyframes dash {
   to {
     stroke-dashoffset: 0;
@@ -247,6 +290,7 @@ polyline {
   pointer-events: none;
   z-index: 2;
 }
+
 .sdg-Content .goalNum {
   font-size: 36px;
   font-family: "apex_newbold";
@@ -254,11 +298,13 @@ polyline {
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
+
 .sdg-Content .goalTxt {
   font-size: 12px;
   font-family: "apex_newbold";
   color: #fff;
 }
+
 .sdg-Content.smallCirc .goalNum {
   font-size: 34px;
   font-family: "apex_newbold";
@@ -271,29 +317,32 @@ polyline {
   left: 570px;
   text-align: center;
 }
+
 .sdg-Content .ContGoal1 .goalImg {
   width: 48px;
   position: absolute;
   top: 157px;
   -webkit-transform: rotate(12deg);
-          transform: rotate(12deg);
+  transform: rotate(12deg);
   left: -16px;
 }
+
 .sdg-Content .ContGoal1 .goalTxt {
   text-transform: uppercase;
   width: 50px;
   position: absolute;
   top: 54px;
   -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
+  transform: rotate(0deg);
   left: 0px;
 }
+
 .sdg-Content .ContGoal1 .goalNum {
   width: 50px;
   position: absolute;
   top: 13px;
   -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
+  transform: rotate(0deg);
   left: 0px;
 }
 
@@ -303,29 +352,32 @@ polyline {
   left: 675px;
   text-align: center;
 }
+
 .sdg-Content .ContGoal2 .goalImg {
   width: 42px;
   position: absolute;
   top: 140px;
   -webkit-transform: rotate(31deg);
-          transform: rotate(31deg);
+  transform: rotate(31deg);
   left: -65px;
 }
+
 .sdg-Content .ContGoal2 .goalTxt {
   text-transform: uppercase;
   width: 50px;
   position: absolute;
   top: 57px;
   -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
+  transform: rotate(0deg);
   left: -14px;
 }
+
 .sdg-Content .ContGoal2 .goalNum {
   width: 50px;
   position: absolute;
   top: 15px;
   -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
+  transform: rotate(0deg);
   left: -5px;
 }
 
@@ -335,29 +387,32 @@ polyline {
   left: 748px;
   text-align: center;
 }
+
 .sdg-Content .ContGoal3 .goalImg {
   width: 42px;
   position: absolute;
   top: 130px;
   -webkit-transform: rotate(55deg);
-          transform: rotate(55deg);
+  transform: rotate(55deg);
   left: -99px;
 }
+
 .sdg-Content .ContGoal3 .goalTxt {
   text-transform: uppercase;
   width: 70px;
   position: absolute;
   top: 61px;
   -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
+  transform: rotate(0deg);
   left: -39px;
 }
+
 .sdg-Content .ContGoal3 .goalNum {
   width: 50px;
   position: absolute;
   top: 36px;
   -webkit-transform: rotate(-5deg);
-          transform: rotate(-5deg);
+  transform: rotate(-5deg);
   left: 9px;
 }
 
@@ -367,29 +422,32 @@ polyline {
   left: 790px;
   text-align: center;
 }
+
 .sdg-Content .ContGoal4 .goalImg {
   width: 38px;
   position: absolute;
   top: 57px;
   -webkit-transform: rotate(80deg);
-          transform: rotate(80deg);
+  transform: rotate(80deg);
   left: -115px;
 }
+
 .sdg-Content .ContGoal4 .goalTxt {
   text-transform: uppercase;
   width: 70px;
   position: absolute;
   top: 34px;
   -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
+  transform: rotate(0deg);
   left: -37px;
 }
+
 .sdg-Content .ContGoal4 .goalNum {
   width: 50px;
   position: absolute;
   top: 13px;
   -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
+  transform: rotate(0deg);
   left: 18px;
 }
 
@@ -399,29 +457,32 @@ polyline {
   left: 810px;
   text-align: center;
 }
+
 .sdg-Content .ContGoal5 .goalImg {
   width: 36px;
   position: absolute;
   top: 5px;
   -webkit-transform: rotate(5deg);
-          transform: rotate(5deg);
+  transform: rotate(5deg);
   left: -125px;
 }
+
 .sdg-Content .ContGoal5 .goalTxt {
   text-transform: uppercase;
   width: 70px;
   position: absolute;
   top: 30px;
   -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
+  transform: rotate(0deg);
   left: -43px;
 }
+
 .sdg-Content .ContGoal5 .goalNum {
   width: 50px;
   position: absolute;
   top: 17px;
   -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
+  transform: rotate(0deg);
   left: 11px;
 }
 
@@ -431,29 +492,32 @@ polyline {
   left: 770px;
   text-align: center;
 }
+
 .sdg-Content .ContGoal6 .goalImg {
   width: 34px;
   position: absolute;
   top: -30px;
   -webkit-transform: rotate(30deg);
-          transform: rotate(30deg);
+  transform: rotate(30deg);
   left: -103px;
 }
+
 .sdg-Content .ContGoal6 .goalTxt {
   text-transform: uppercase;
   width: 90px;
   position: absolute;
   top: 25px;
   -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
+  transform: rotate(0deg);
   left: -27px;
 }
+
 .sdg-Content .ContGoal6 .goalNum {
   width: 50px;
   position: absolute;
   top: 49px;
   -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
+  transform: rotate(0deg);
   left: 9px;
 }
 
@@ -463,29 +527,32 @@ polyline {
   left: 711px;
   text-align: center;
 }
+
 .sdg-Content .ContGoal7 .goalImg {
   width: 42px;
   position: absolute;
   top: -67px;
   -webkit-transform: rotate(30deg);
-          transform: rotate(30deg);
+  transform: rotate(30deg);
   left: -78px;
 }
+
 .sdg-Content .ContGoal7 .goalTxt {
   text-transform: uppercase;
   width: 90px;
   position: absolute;
   top: 24px;
   -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
+  transform: rotate(0deg);
   left: -27px;
 }
+
 .sdg-Content .ContGoal7 .goalNum {
   width: 50px;
   position: absolute;
   top: 46px;
   -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
+  transform: rotate(0deg);
   left: 0px;
 }
 
@@ -495,29 +562,32 @@ polyline {
   left: 620px;
   text-align: center;
 }
+
 .sdg-Content .ContGoal8 .goalImg {
   width: 40px;
   position: absolute;
   top: -73px;
   -webkit-transform: rotate(-24deg);
-          transform: rotate(-24deg);
+  transform: rotate(-24deg);
   left: -36px;
 }
+
 .sdg-Content .ContGoal8 .goalTxt {
   text-transform: uppercase;
   width: 90px;
   position: absolute;
   top: 19px;
   -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
+  transform: rotate(0deg);
   left: -25px;
 }
+
 .sdg-Content .ContGoal8 .goalNum {
   width: 50px;
   position: absolute;
   top: 58px;
   -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
+  transform: rotate(0deg);
   left: 4px;
 }
 
@@ -527,29 +597,32 @@ polyline {
   left: 515px;
   text-align: center;
 }
+
 .sdg-Content .ContGoal9 .goalImg {
   width: 42px;
   position: absolute;
   top: -92px;
   -webkit-transform: rotate(-3deg);
-          transform: rotate(-3deg);
+  transform: rotate(-3deg);
   left: 13px;
 }
+
 .sdg-Content .ContGoal9 .goalTxt {
   text-transform: uppercase;
   width: 90px;
   position: absolute;
   top: 6px;
   -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
+  transform: rotate(0deg);
   left: -12px;
 }
+
 .sdg-Content .ContGoal9 .goalNum {
   width: 50px;
   position: absolute;
   top: 41px;
   -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
+  transform: rotate(0deg);
   left: 10px;
 }
 
@@ -559,29 +632,32 @@ polyline {
   left: 415px;
   text-align: center;
 }
+
 .sdg-Content .ContGoal10 .goalImg {
   width: 42px;
   position: absolute;
   top: -95px;
   -webkit-transform: rotate(3deg);
-          transform: rotate(3deg);
+  transform: rotate(3deg);
   left: 56px;
 }
+
 .sdg-Content .ContGoal10 .goalTxt {
   text-transform: uppercase;
   width: 90px;
   position: absolute;
   top: 11px;
   -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
+  transform: rotate(0deg);
   left: -4px;
 }
+
 .sdg-Content .ContGoal10 .goalNum {
   width: 50px;
   position: absolute;
   top: 34px;
   -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
+  transform: rotate(0deg);
   left: 2px;
 }
 
@@ -591,29 +667,32 @@ polyline {
   left: 330px;
   text-align: center;
 }
+
 .sdg-Content .ContGoal11 .goalImg {
   width: 42px;
   position: absolute;
   top: -60px;
   -webkit-transform: rotate(40deg);
-          transform: rotate(40deg);
+  transform: rotate(40deg);
   left: 98px;
 }
+
 .sdg-Content .ContGoal11 .goalTxt {
   text-transform: uppercase;
   width: 110px;
   position: absolute;
   top: 23px;
   -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
+  transform: rotate(0deg);
   left: -7px;
 }
+
 .sdg-Content .ContGoal11 .goalNum {
   width: 50px;
   position: absolute;
   top: 48px;
   -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
+  transform: rotate(0deg);
   left: 7px;
 }
 
@@ -623,29 +702,32 @@ polyline {
   left: 262px;
   text-align: center;
 }
+
 .sdg-Content .ContGoal12 .goalImg {
   width: 42px;
   position: absolute;
   top: -23px;
   -webkit-transform: rotate(63deg);
-          transform: rotate(63deg);
+  transform: rotate(63deg);
   left: 131px;
 }
+
 .sdg-Content .ContGoal12 .goalTxt {
   text-transform: uppercase;
   width: 150px;
   position: absolute;
   top: 15px;
   -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
+  transform: rotate(0deg);
   left: -19px;
 }
+
 .sdg-Content .ContGoal12 .goalNum {
   width: 50px;
   position: absolute;
   top: 55px;
   -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
+  transform: rotate(0deg);
   left: 20px;
 }
 
@@ -655,29 +737,32 @@ polyline {
   left: 250px;
   text-align: center;
 }
+
 .sdg-Content .ContGoal13 .goalImg {
   width: 42px;
   position: absolute;
   top: 8px;
   -webkit-transform: rotate(5deg);
-          transform: rotate(5deg);
+  transform: rotate(5deg);
   left: 129px;
 }
+
 .sdg-Content .ContGoal13 .goalTxt {
   text-transform: uppercase;
   width: 80px;
   position: absolute;
   top: 27px;
   -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
+  transform: rotate(0deg);
   left: 23px;
 }
+
 .sdg-Content .ContGoal13 .goalNum {
   width: 50px;
   position: absolute;
   top: 22px;
   -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
+  transform: rotate(0deg);
   left: -9px;
 }
 
@@ -687,29 +772,32 @@ polyline {
   left: 260px;
   text-align: center;
 }
+
 .sdg-Content .ContGoal14 .goalImg {
   width: 42px;
   position: absolute;
   top: 59px;
   -webkit-transform: rotate(20deg);
-          transform: rotate(20deg);
+  transform: rotate(20deg);
   left: 123px;
 }
+
 .sdg-Content .ContGoal14 .goalTxt {
   text-transform: uppercase;
   width: 80px;
   position: absolute;
   top: 45px;
   -webkit-transform: rotate(2deg);
-          transform: rotate(2deg);
+  transform: rotate(2deg);
   left: 29px;
 }
+
 .sdg-Content .ContGoal14 .goalNum {
   width: 50px;
   position: absolute;
   top: 27px;
   -webkit-transform: rotate(2deg);
-          transform: rotate(2deg);
+  transform: rotate(2deg);
   left: -11px;
 }
 
@@ -719,29 +807,32 @@ polyline {
   left: 305px;
   text-align: center;
 }
+
 .sdg-Content .ContGoal15 .goalImg {
   width: 42px;
   position: absolute;
   top: 111px;
   -webkit-transform: rotate(33deg);
-          transform: rotate(33deg);
+  transform: rotate(33deg);
   left: 103px;
 }
+
 .sdg-Content .ContGoal15 .goalTxt {
   text-transform: uppercase;
   width: 50px;
   position: absolute;
   top: 72px;
   -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
+  transform: rotate(0deg);
   left: 34px;
 }
+
 .sdg-Content .ContGoal15 .goalNum {
   width: 50px;
   position: absolute;
   top: 28px;
   -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
+  transform: rotate(0deg);
   left: 0px;
 }
 
@@ -751,29 +842,32 @@ polyline {
   left: 380px;
   text-align: center;
 }
+
 .sdg-Content .ContGoal16 .goalImg {
   width: 42px;
   position: absolute;
   top: 140px;
   -webkit-transform: rotate(-30deg);
-          transform: rotate(-30deg);
+  transform: rotate(-30deg);
   left: 67px;
 }
+
 .sdg-Content .ContGoal16 .goalTxt {
   text-transform: uppercase;
   width: 50px;
   position: absolute;
   top: 74px;
   -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
+  transform: rotate(0deg);
   left: 20px;
 }
+
 .sdg-Content .ContGoal16 .goalNum {
   width: 50px;
   position: absolute;
   top: 28px;
   -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
+  transform: rotate(0deg);
   left: 0px;
 }
 
@@ -783,69 +877,77 @@ polyline {
   left: 465px;
   text-align: center;
 }
+
 .sdg-Content .ContGoal17 .goalImg {
   width: 42px;
   position: absolute;
   top: 155px;
   -webkit-transform: rotate(-12deg);
-          transform: rotate(-12deg);
+  transform: rotate(-12deg);
   left: 34px;
 }
+
 .sdg-Content .ContGoal17 .goalTxt {
   text-transform: uppercase;
   position: absolute;
   top: 76px;
   -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
+  transform: rotate(0deg);
   left: 4px;
 }
+
 .sdg-Content .ContGoal17 .goalNum {
   width: 50px;
   position: absolute;
   top: 26px;
   -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
+  transform: rotate(0deg);
   left: 9px;
 }
 
 /*Scaling*/
 .scaleTransfrom {
   -webkit-transform: scale(1, 1);
-          transform: scale(1, 1);
+  transform: scale(1, 1);
   -webkit-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
 }
+
 .slices a.sliceActive .scaleTransfrom {
   -webkit-transform: scale(1.04, 1.04);
-          transform: scale(1.04, 1.04);
+  transform: scale(1.04, 1.04);
 }
+
 .slices a.sliceSmall .scaleTransfrom {
   -webkit-transform: scale(0.95, 0.95);
-          transform: scale(0.95, 0.95);
+  transform: scale(0.95, 0.95);
 }
 
 .slices2 .darkSlice {
   -webkit-transform: scale(1, 1);
-          transform: scale(1, 1);
+  transform: scale(1, 1);
   -webkit-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
 }
+
 .slices2 .darkSlice.dSliceTrans {
   -webkit-transform: scale(0.95, 0.95);
-          transform: scale(0.95, 0.95);
-}
-.slices2 .darkSlice.hideCont {
-  -webkit-transform: scale(1.04, 1.04);
-          transform: scale(1.04, 1.04);
+  transform: scale(0.95, 0.95);
 }
 
-.sdg-Content > div {
+.slices2 .darkSlice.hideCont {
+  -webkit-transform: scale(1.04, 1.04);
+  transform: scale(1.04, 1.04);
+}
+
+.sdg-Content>div {
   opacity: 1;
   visibility: visible;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
-.sdg-Content > div.hideCont {
+
+.sdg-Content>div.hideCont {
   visibility: hidden;
   opacity: 0;
 }
@@ -862,34 +964,40 @@ polyline {
   opacity: 0;
   -webkit-transition: all 1.5s ease-in-out;
   transition: all 1.5s ease-in-out;
-  visibility: hidden; /*pointer-events: none;*/
+  visibility: hidden;
+  /*pointer-events: none;*/
 }
+
 .sdgTextBlocks.show {
   visibility: visible;
   opacity: 1;
 }
-.sdgTextBlocks.show > div {
+
+.sdgTextBlocks.show>div {
   visibility: visible;
   opacity: 1;
   display: block;
 }
-.sdgTextBlocks > div {
+
+.sdgTextBlocks>div {
   visibility: visible;
   opacity: 1;
   -webkit-transition: all 1.5s ease-in-out;
   transition: all 1.5s ease-in-out;
   display: none;
 }
-.sdgTextBlocks > div.hideCont {
+
+.sdgTextBlocks>div.hideCont {
   visibility: hidden;
   opacity: 0;
 }
 
-.sdgTextBlocks > div.change {
+.sdgTextBlocks>div.change {
   color: rgba(0, 0, 0, 0);
   text-shadow: 0 0 20px #ededed;
 }
-.sdgTextBlocks > div {
+
+.sdgTextBlocks>div {
   position: absolute;
   width: 300px;
   padding: 5px 0;
@@ -899,85 +1007,102 @@ polyline {
   transition: all 2s ease;
   z-index: 9;
 }
+
 .sdgTextBlocks .sdg1Text {
   bottom: 814px;
   left: 645px;
   width: 430px;
 }
+
 .sdgTextBlocks .sdg2Text {
   bottom: 725px;
   left: 740px;
   width: 380px;
 }
+
 .sdgTextBlocks .sdg3Text {
   bottom: 645px;
   left: 834px;
 }
+
 .sdgTextBlocks .sdg4Text {
   bottom: 555px;
   left: 888px;
   width: 217px;
 }
+
 .sdgTextBlocks .sdg5Text {
   bottom: 430px;
   left: 899px;
   width: 196px;
 }
+
 .sdgTextBlocks .sdg6Text {
   bottom: 255px;
   left: 870px;
   width: 290px;
 }
+
 .sdgTextBlocks .sdg7Text {
   bottom: 154px;
   left: 813px;
   width: 287px;
 }
+
 .sdgTextBlocks .sdg8Text {
   bottom: 88px;
   left: 690px;
   width: 440px;
 }
+
 .sdgTextBlocks .sdg9Text {
   bottom: 12px;
   left: 617px;
   width: 480px;
 }
+
 .sdgTextBlocks .sdg10Text {
   bottom: 53px;
   left: 42px;
   width: 370px;
 }
+
 .sdgTextBlocks .sdg11Text {
   bottom: 154px;
   left: 1px;
   width: 292px;
 }
+
 .sdgTextBlocks .sdg12Text {
   bottom: 254px;
   left: -10px;
   width: 260px;
 }
+
 .sdgTextBlocks .sdg13Text {
   bottom: 382px;
   left: 0;
   width: 220px;
 }
+
 .sdgTextBlocks .sdg14Text {
   bottom: 556px;
   left: 0;
   width: 225px;
 }
+
 .sdgTextBlocks .sdg15Text {
   bottom: 654px;
   left: 0;
   width: 310px;
 }
+
 .sdgTextBlocks .sdg16Text {
   bottom: 748px;
   left: 2px;
   width: 440px;
 }
+
 .sdgTextBlocks .sdg17Text {
   bottom: 823px;
   left: 65px;
@@ -991,31 +1116,37 @@ polyline {
   left: 463px;
   z-index: 0;
 }
+
 .circle {
   width: 200px;
   height: 200px;
 }
+
 .circle .cirPlc {
   visibility: hidden;
   opacity: 0;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
+
 .circle .cirPlc.show {
   visibility: visible;
   opacity: 1;
   position: absolute;
   z-index: 0;
 }
+
 .circle .cirPlc.showPermanant {
   visibility: visible;
   opacity: 1;
   position: absolute;
   z-index: 9999;
 }
+
 .circle .cirPlc.inrCircHide {
   visibility: hidden;
 }
+
 .circle .cirPlc.inrCircHide.show {
   visibility: hidden;
 }
@@ -1028,19 +1159,21 @@ polyline {
   height: 44px;
   background: #fff;
   -webkit-box-shadow: 0 0 10px #ccc;
-          box-shadow: 0 0 10px #ccc;
+  box-shadow: 0 0 10px #ccc;
 }
 
 .MainFooter .footerLeft {
   float: left;
   border-right: 1px solid #2c2c2c;
 }
+
 .MainFooter .footerLeft a {
   padding: 10px;
   color: #2c2c2c;
   font-size: 24px;
   float: left;
 }
+
 .MainFooter .footerLeft .sharePage {
   float: left;
   visibility: hidden;
@@ -1050,6 +1183,7 @@ polyline {
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
+
 .MainFooter .footerLeft .sharePage.active {
   max-width: 300px;
   visibility: visible;
@@ -1060,12 +1194,14 @@ polyline {
   float: right;
   border-left: 1px solid #2c2c2c;
 }
+
 .MainFooter .footerRight a {
   padding: 14px 10px;
   color: #2c2c2c;
   font-size: 16px;
   float: left;
 }
+
 .MainFooter .footerRight a i {
   font-size: 14px;
 }
@@ -1078,6 +1214,7 @@ polyline {
 .dropdownMenu {
   display: inline-block;
 }
+
 select#category {
   padding: 9px 12px 9px;
   display: inline;
@@ -1101,17 +1238,49 @@ select#category {
     -webkit-box-shadow 0.15s ease-in-out;
   transition: border-color 0.15s ease-in-out,
     -webkit-box-shadow 0.15s ease-in-out;
+  -webkit-transition: border-color 0.15s ease-in-out,
+    -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out,
+    -webkit-box-shadow 0.15s ease-in-out;
+  -webkit-transition: border-color 0.15s ease-in-out,
+    -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out,
+    -webkit-box-shadow 0.15s ease-in-out;
+  -webkit-transition: border-color 0.15s ease-in-out,
+    -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out,
+    -webkit-box-shadow 0.15s ease-in-out;
+  -webkit-transition: border-color 0.15s ease-in-out,
+    -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out,
+    -webkit-box-shadow 0.15s ease-in-out;
+  -webkit-transition: border-color 0.15s ease-in-out,
+    -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out,
+    -webkit-box-shadow 0.15s ease-in-out;
   -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
     -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
+    -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
+    -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
+    -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
+    -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
+    -webkit-box-shadow 0.15s ease-in-out;
 }
+
 select#category:not(.tabbing):focus,
 select#category:not(.tabbing):active {
   outline: none !important;
 }
+
 select#category:focus {
   border-color: rgba(0, 130, 63, 0.4);
   outline: 0;
@@ -1120,4 +1289,5 @@ select#category:focus {
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
     0 0 8px rgba(0, 130, 63, 0.6);
 }
+
 /* Ægir custom css ends */

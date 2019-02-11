@@ -1,484 +1,545 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns#">
-	<head>
+
+<head>
 	<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-	
-		<title>Kópavogsbær | Markmið</title>
-		<link rel="shortcut icon" href="fav.ico" type="image/x-icon">
-		<link href="css/reset.css" rel="stylesheet">
-		<link href="css/font-awesome.min.css" rel="stylesheet">
-		<link href="css/style.css" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="css/jssocials.css" />
-		<script src="http://d3js.org/d3.v3.min.js"></script>
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	</head>
-	<body>
-		<header class="mainHeader">
-			<div class="container-fluid">
-				<div class="dropdownMenu">
-					<select name="category" id="category">
-						<option value="0">Forsíða</option>
-						<option value="1">Barnasáttmálinn</option>
-						<option value="1">Lorem ipsum</option>
-					</select>
-				</div>
-				<div class="logoContainer">
-					<a href="javascript:void(0);">
-						<img src="images/logo.png" class="logo" alt="Kópavogsbær Logo">
-					</a>
-				</div>
-				<div class="reset">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+	<title>Kópavogsbær | Markmið</title>
+	<link rel="shortcut icon" href="fav.ico" type="image/x-icon">
+	<link href="css/reset.css" rel="stylesheet">
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/jssocials.css" />
+	<script src="http://d3js.org/d3.v3.min.js"></script>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+</head>
+
+<body>
+	<header class="mainHeader">
+		<div class="container-fluid">
+			<div class="logoContainer">
+				<a href="javascript:void(0);">
+					<img src="images/logo.png" class="logo" alt="Kópavogsbær Logo">
+				</a>
+			</div>
+			<div class="dropdownMenu">
+				<select name="category" id="category">
+					<option value="0">Forsíða</option>
+					<option value="1">Barnasáttmálinn</option>
+					<option value="1">Lorem ipsum</option>
+				</select>
+			</div>
+			<!-- <div class="reset">
 					<a href="javascript:void(0);">Forsíða</a>
+				</div> -->
+		</div>
+	</header>
+	<section class="svgPart">
+		<div class="conatiner-fluid">
+			<div class="conatiner mainContainer">
+				<span class="screen-reader-text"> Clicking on the following image link will update the content on the page</span>
+				<svg>
+					<g transform="translate(550,405)">
+						<g class="slices">
+							<a xlink:href="javascript:void(0);" onclick="bindSDGValue(this)" id="slice1" data-target=" .darkSlice1" class="text1">
+								<g class="scaleTransfrom">
+									<path class="slice" d="M2.029852069586738e-14,-331.5A331.5,331.5 0 0,1 119.75161234104118,-309.114544047544L41.452481194975796,-107.00118832414984A114.75000000000001,114.75000000000001 0 0,0 7.02641101010794e-15,-114.75000000000001Z"
+									 style="fill: rgb(229, 35, 62);"></path>
+								</g>
+							</a>
+							<a xlink:href="javascript:void(0);" onclick="bindSDGValue(this)" id="slice2" data-target="#goal2Cont,  #gridLine2, #sdgText2, .darkSlice2"
+							 class="text2">
+								<g class="scaleTransfrom">
+									<path class="slice" d="M119.75161234104118,-309.114544047544A331.5,331.5 0 0,1 223.33010586883364,-244.98145605864858L77.30657510844243,-84.80127325107067A114.75000000000001,114.75000000000001 0 0,0 41.452481194975796,-107.00118832414984Z"
+									 style="fill: rgb(235, 180, 51);"></path>
+								</g>
+							</a>
+							<a xlink:href="javascript:void(0);" onclick="bindSDGValue(this)" id="slice3" data-target="#goal3Cont,  #slice13,  #slice2, #gridLine3,  #gridLine13,  #gridLine2, #sdgText3, #gridLine7, #slice7, .darkSlice3"
+							 class="text3">
+								<g class="scaleTransfrom">
+									<path class="slice" d="M223.33010586883364,-244.98145605864858A331.5,331.5 0 0,1 296.7466310842031,-147.76226493992257L102.71998768299339,-51.14847632535782A114.75000000000001,114.75000000000001 0 0,0 77.30657510844243,-84.80127325107067Z"
+									 style="fill: rgb(74, 159, 65);"></path>
+								</g>
+							</a>
+							<a xlink:href="javascript:void(0);" onclick="bindSDGValue(this)" id="slice4" data-target="#goal4Cont,  #gridLine4, #sdgText4, .darkSlice4"
+							 class="text4">
+								<g class="scaleTransfrom">
+									<path class="slice" d="M296.7466310842031,-147.76226493992257A331.5,331.5 0 0,1 330.0858794418039,-30.586961162084815L114.26049672985522,-10.587794248413976A114.75000000000001,114.75000000000001 0 0,0 102.71998768299339,-51.14847632535782Z"
+									 style="fill: rgb(199, 33, 47);"></path>
+								</g>
+							</a>
+							<a xlink:href="javascript:void(0);" onclick="bindSDGValue(this)" id="slice5" data-target="#goal5Cont,  #gridLine5, #sdgText5, .darkSlice5"
+							 class="text5">
+								<g class="scaleTransfrom">
+									<path class="slice" d="M330.0858794418039,-30.586961162084815A331.5,331.5 0 0,1 318.8452007117896,90.71928120889523L110.36949255408102,31.402828110771427A114.75000000000001,114.75000000000001 0 0,0 114.26049672985522,-10.587794248413976Z"
+									 style="fill: rgb(235, 64, 46);"></path>
+								</g>
+							</a>
+							<a xlink:href="javascript:void(0);" onclick="bindSDGValue(this)" id="slice6" data-target="#goal6Cont,  #gridLine6, #sdgText6, .darkSlice6"
+							 class="text6">
+								<g class="scaleTransfrom">
+									<path class="slice" d="M318.8452007117896,90.71928120889523A331.5,331.5 0 0,1 264.54271084339956,199.77338195972325L91.57247683040755,69.15232452451959A114.75000000000001,114.75000000000001 0 0,0 110.36949255408102,31.402828110771427Z"
+									 style="fill: rgb(34, 188, 238);"></path>
+								</g>
+							</a>
+							<a xlink:href="javascript:void(0);" onclick="bindSDGValue(this)" id="slice7" data-target="#goal7Cont,  #gridLine7, #sdgText7, .darkSlice7"
+							 class="text7">
+								<g class="scaleTransfrom">
+									<path class="slice" d="M264.54271084339956,199.77338195972325A331.5,331.5 0 0,1 174.51226199384377,281.8469804943669L60.40809069017669,97.56241632497317A114.75000000000001,114.75000000000001 0 0,0 91.57247683040755,69.15232452451959Z"
+									 style="fill: rgb(252, 196, 21);"></path>
+								</g>
+							</a>
+							<a xlink:href="javascript:void(0);" onclick="bindSDGValue(this)" id="slice8" data-target="#goal8Cont,  #gridLine8, #sdgText8, .darkSlice8"
+							 class="text8">
+								<g class="scaleTransfrom">
+									<path class="slice" d="M174.51226199384377,281.8469804943669A331.5,331.5 0 0,1 60.91296515619349,325.8555825452134L21.085257169451594,112.79616318872772A114.75000000000001,114.75000000000001 0 0,0 60.40809069017669,97.56241632497317Z"
+									 style="fill: rgb(163, 28, 68);"></path>
+								</g>
+							</a>
+							<a xlink:href="javascript:void(0);" onclick="bindSDGValue(this)" id="slice9" data-target="#goal9Cont , #gridLine9, #sdgText9, .darkSlice9"
+							 class="text9">
+								<g class="scaleTransfrom">
+									<path class="slice" d="M60.91296515619349,325.8555825452134A331.5,331.5 0 0,1 -60.91296515619258,325.8555825452135L-21.085257169451282,112.79616318872777A114.75000000000001,114.75000000000001 0 0,0 21.085257169451594,112.79616318872772Z"
+									 style="fill: rgb(241, 104, 49);"></path>
+								</g>
+							</a>
+							<a xlink:href="javascript:void(0);" onclick="bindSDGValue(this)" id="slice10" data-target="#goal10Cont, #slice12,  #gridLine10, #sdgText10, #gridLine12, .darkSlice10"
+							 class="text10">
+								<g class="scaleTransfrom">
+									<path class="slice" d="M-60.91296515619258,325.8555825452135A331.5,331.5 0 0,1 -174.51226199384297,281.84698049436736L-60.40809069017642,97.56241632497333A114.75000000000001,114.75000000000001 0 0,0 -21.085257169451282,112.79616318872777Z"
+									 style="fill: rgb(231, 19, 104);"></path>
+								</g>
+							</a>
+							<a xlink:href="javascript:void(0);" onclick="bindSDGValue(this)" id="slice11" data-target="#goal11Cont,  #gridLine11, #sdgText11, .darkSlice11"
+							 class="text11">
+								<g class="scaleTransfrom">
+									<path class="slice" d="M-174.51226199384297,281.84698049436736A331.5,331.5 0 0,1 -264.54271084339905,199.77338195972396L-91.57247683040737,69.15232452451984A114.75000000000001,114.75000000000001 0 0,0 -60.40809069017642,97.56241632497333Z"
+									 style="fill: rgb(248, 158, 46);"></path>
+								</g>
+							</a>
+							<a xlink:href="javascript:void(0);" onclick="bindSDGValue(this)" id="slice12" data-target="#goal12Cont, #slice10, #gridLine10, #gridLine12, #sdgText12, .darkSlice12"
+							 class="text12">
+								<g class="scaleTransfrom">
+									<path class="slice" d="M-264.54271084339905,199.77338195972396A331.5,331.5 0 0,1 -318.84520071178935,90.7192812088961L-110.36949255408094,31.402828110771733A114.75000000000001,114.75000000000001 0 0,0 -91.57247683040737,69.15232452451984Z"
+									 style="fill: rgb(202, 155, 47);"></path>
+								</g>
+							</a>
+							<a xlink:href="javascript:void(0);" onclick="bindSDGValue(this)" id="slice13" data-target="#goal13Cont,  #gridLine13, #sdgText13, .darkSlice13"
+							 class="text13">
+								<g class="scaleTransfrom">
+									<path class="slice" d="M-318.84520071178935,90.7192812088961A331.5,331.5 0 0,1 -330.085879441804,-30.586961162083895L-114.26049672985525,-10.587794248413658A114.75000000000001,114.75000000000001 0 0,0 -110.36949255408094,31.402828110771733Z"
+									 style="fill: rgb(67, 132, 76);"></path>
+								</g>
+							</a>
+							<a xlink:href="javascript:void(0);" onclick="bindSDGValue(this)" id="slice14" data-target="#goal14Cont, #slice1, #gridLine14, #sdgText14, #gridLine1, .darkSlice14"
+							 class="text14">
+								<g class="scaleTransfrom">
+									<path class="slice" d="M-330.085879441804,-30.586961162083895A331.5,331.5 0 0,1 -296.7466310842035,-147.76226493992175L-102.71998768299353,-51.148476325357535A114.75000000000001,114.75000000000001 0 0,0 -114.26049672985525,-10.587794248413658Z"
+									 style="fill: rgb(23, 148, 214);"></path>
+								</g>
+							</a>
+							<a xlink:href="javascript:void(0);" onclick="bindSDGValue(this)" id="slice15" data-target="#goal15Cont, #gridLine15, #sdgText15, .darkSlice15"
+							 class="text15">
+								<g class="scaleTransfrom">
+									<path class="slice" d="M-296.7466310842035,-147.76226493992175A331.5,331.5 0 0,1 -223.33010586883435,-244.98145605864795L-77.30657510844267,-84.80127325107046A114.75000000000001,114.75000000000001 0 0,0 -102.71998768299353,-51.148476325357535Z"
+									 style="fill: rgb(98, 180, 70);"></path>
+								</g>
+							</a>
+							<a xlink:href="javascript:void(0);" onclick="bindSDGValue(this)" id="slice16" data-target="#goal16Cont, #gridLine16, #sdgText16, .darkSlice16"
+							 class="text16">
+								<g class="scaleTransfrom">
+									<path class="slice" d="M-223.33010586883435,-244.98145605864795A331.5,331.5 0 0,1 -119.75161234104202,-309.11454404754363L-41.45248119497609,-107.00118832414972A114.75000000000001,114.75000000000001 0 0,0 -77.30657510844267,-84.80127325107046Z"
+									 style="fill: rgb(18, 108, 161);"></path>
+								</g>
+							</a>
+							<a xlink:href="javascript:void(0);" onclick="bindSDGValue(this)" id="slice17" data-target="#goal17Cont,  #gridLine17, #sdgText17, .darkSlice17"
+							 class="text17">
+								<g class="scaleTransfrom">
+									<path class="slice" d="M-119.75161234104202,-309.11454404754363A331.5,331.5 0 0,1 -9.441890004793767e-13,-331.5L-3.26834654012092e-13,-114.75000000000001A114.75000000000001,114.75000000000001 0 0,0 -41.45248119497609,-107.00118832414972Z"
+									 style="fill: rgb(6, 73, 115);"></path>
+								</g>
+							</a>
+						</g>
+
+
+
+
+
+
+						<g class="slices2" transform="scale(0.565,0.565)">
+							<g class="darkSlice darkSlice1">
+								<path class="sliceBlack" id="sdgBlc1" d="M2.029852069586738e-14,-331.5A331.5,331.5 0 0,1 119.75161234104118,-309.114544047544L73.69329990217919,-190.2243347984886A204,204 0 0,0 1.2491397351303002e-14,-204Z"
+								 style="fill: rgba(0,0,0,0.3);"></path>
+							</g>
+							<g class="darkSlice darkSlice2">
+								<path class="sliceBlack" d="M119.75161234104118,-309.114544047544A331.5,331.5 0 0,1 223.33010586883364,-244.98145605864858L137.43391130389762,-150.7578191130145A204,204 0 0,0 73.69329990217919,-190.2243347984886Z"
+								 style="fill: rgba(0,0,0,0.3);"></path>
+							</g>
+							<g class="darkSlice darkSlice3">
+								<path class="sliceBlack" d="M223.33010586883364,-244.98145605864858A331.5,331.5 0 0,1 296.7466310842031,-147.76226493992257L182.61331143643267,-90.9306245784139A204,204 0 0,0 137.43391130389762,-150.7578191130145Z"
+								 style="fill: rgba(0,0,0,0.3);"></path>
+							</g>
+							<g class="darkSlice darkSlice4">
+								<path class="sliceBlack" d="M296.7466310842031,-147.76226493992257A331.5,331.5 0 0,1 330.0858794418039,-30.586961162084815L203.12977196418703,-18.822745330513733A204,204 0 0,0 182.61331143643267,-90.9306245784139Z"
+								 style="fill: rgba(0,0,0,0.3);"></path>
+							</g>
+							<g class="darkSlice darkSlice5">
+								<path class="sliceBlack" d="M330.0858794418039,-30.586961162084815A331.5,331.5 0 0,1 318.8452007117896,90.71928120889523L196.21243120725512,55.82724997470475A204,204 0 0,0 203.12977196418703,-18.822745330513733Z"
+								 style="fill: rgba(0,0,0,0.3);"></path>
+							</g>
+							<g class="darkSlice darkSlice6">
+								<path class="sliceBlack" d="M318.8452007117896,90.71928120889523A331.5,331.5 0 0,1 264.54271084339956,199.77338195972325L162.79551436516897,122.93746582136815A204,204 0 0,0 196.21243120725512,55.82724997470475Z"
+								 style="fill: rgba(0,0,0,0.3);"></path>
+							</g>
+							<g class="darkSlice darkSlice7">
+								<path class="sliceBlack" d="M264.54271084339956,199.77338195972325A331.5,331.5 0 0,1 174.51226199384377,281.8469804943669L107.39216122698078,173.44429568884115A204,204 0 0,0 162.79551436516897,122.93746582136815Z"
+								 style="fill: rgba(0,0,0,0.3);"></path>
+							</g>
+							<g class="darkSlice darkSlice8">
+								<path class="sliceBlack" d="M174.51226199384377,281.8469804943669A331.5,331.5 0 0,1 60.91296515619349,325.8555825452134L37.48490163458061,200.52651233551592A204,204 0 0,0 107.39216122698078,173.44429568884115Z"
+								 style="fill: rgba(0,0,0,0.3);"></path>
+							</g>
+							<g class="darkSlice darkSlice9">
+								<path class="sliceBlack" d="M60.91296515619349,325.8555825452134A331.5,331.5 0 0,1 -60.91296515619258,325.8555825452135L-37.48490163458005,200.526512335516A204,204 0 0,0 37.48490163458061,200.52651233551592Z"
+								 style="fill: rgba(0,0,0,0.3);"></path>
+							</g>
+							<g class="darkSlice darkSlice10">
+								<path class="sliceBlack" d="M-60.91296515619258,325.8555825452135A331.5,331.5 0 0,1 -174.51226199384297,281.84698049436736L-107.39216122698029,173.44429568884146A204,204 0 0,0 -37.48490163458005,200.526512335516Z"
+								 style="fill: rgba(0,0,0,0.3);"></path>
+							</g>
+							<g class="darkSlice darkSlice11">
+								<path class="sliceBlack" d="M-174.51226199384297,281.84698049436736A331.5,331.5 0 0,1 -264.54271084339905,199.77338195972396L-162.79551436516863,122.9374658213686A204,204 0 0,0 -107.39216122698029,173.44429568884146Z"
+								 style="fill: rgba(0,0,0,0.3);"></path>
+							</g>
+							<g class="darkSlice darkSlice12">
+								<path class="sliceBlack" d="M-264.54271084339905,199.77338195972396A331.5,331.5 0 0,1 -318.84520071178935,90.7192812088961L-196.21243120725498,55.827249974705296A204,204 0 0,0 -162.79551436516863,122.9374658213686Z"
+								 style="fill: rgba(0,0,0,0.3);"></path>
+							</g>
+							<g class="darkSlice darkSlice13">
+								<path class="sliceBlack" d="M-318.84520071178935,90.7192812088961A331.5,331.5 0 0,1 -330.085879441804,-30.586961162083895L-203.12977196418709,-18.82274533051317A204,204 0 0,0 -196.21243120725498,55.827249974705296Z"
+								 style="fill: rgba(0,0,0,0.3);"></path>
+							</g>
+							<g class="darkSlice darkSlice14">
+								<path class="sliceBlack" d="M-330.085879441804,-30.586961162083895A331.5,331.5 0 0,1 -296.7466310842035,-147.76226493992175L-182.61331143643292,-90.93062457841339A204,204 0 0,0 -203.12977196418709,-18.82274533051317Z"
+								 style="fill: rgba(0,0,0,0.3);"></path>
+							</g>
+							<g class="darkSlice darkSlice15">
+								<path class="sliceBlack" d="M-296.7466310842035,-147.76226493992175A331.5,331.5 0 0,1 -223.33010586883435,-244.98145605864795L-137.43391130389804,-150.7578191130141A204,204 0 0,0 -182.61331143643292,-90.93062457841339Z"
+								 style="fill: rgba(0,0,0,0.3);"></path>
+							</g>
+							<g class="darkSlice darkSlice16">
+								<path class="sliceBlack" d="M-223.33010586883435,-244.98145605864795A331.5,331.5 0 0,1 -119.75161234104202,-309.11454404754363L-73.6932999021797,-190.22433479848837A204,204 0 0,0 -137.43391130389804,-150.7578191130141Z"
+								 style="fill: rgba(0,0,0,0.3);"></path>
+							</g>
+							<g class="darkSlice darkSlice17">
+								<path class="sliceBlack" d="M-119.75161234104202,-309.11454404754363A331.5,331.5 0 0,1 -9.441890004793767e-13,-331.5L-5.810393849103856e-13,-204A204,204 0 0,0 -73.6932999021797,-190.22433479848837Z"
+								 style="fill: rgba(0,0,0,0.3);"></path>
+							</g>
+						</g>
+
+
+
+
+
+						<g class="lines">
+							<polyline id="gridLine1" class="leaderLine" style="stroke:#e5233e; stroke-width:1" points="44.999111,-296.325873,94.284191,-380,492.75,-380"></polyline>
+							<polyline id="gridLine2" class="leaderLine" style="stroke:#ebb433; stroke-width:1" points="164.460176,-267.704698,192.36030230058853,-290,550.75,-290"></polyline>
+							<polyline id="gridLine3" class="leaderLine" style="stroke:#4a9f41; stroke-width:1" points="226.057594,-161.462853,285.241589,-210,558.75,-210"></polyline>
+							<polyline id="gridLine4" class="leaderLine" style="stroke:#c7212f; stroke-width:1" points="298.607347,-85.061055,337.898309,-120,579.75,-120"></polyline>
+							<polyline id="gridLine5" class="leaderLine" style="stroke:#eb402e; stroke-width:1" points="288.173188,46.587378,350.868322,5.292647,534.75,5.292647"></polyline>
+							<polyline id="gridLine6" class="leaderLine" style="stroke:#22bcee; stroke-width:1" points="260.733309,154.455371,322.399959,180,535.75,180"></polyline>
+							<polyline id="gridLine7" class="leaderLine" style="stroke:#fcc415; stroke-width:1" points="206.31834,227.891365,257.6885836948084,280,574.75,280"></polyline>
+							<polyline id="gridLine8" class="leaderLine" style="stroke:#a31c44; stroke-width:1" points="98.602047,279.057866,138.17493731658644,346.67062774716595,526.75,346.67062774716595"></polyline>
+							<polyline id="gridLine9" class="leaderLine" style="stroke:#f16831; stroke-width:1" points="0.890753,300.125,64.330137,423.5,526.75,423.5"></polyline>
+							<polyline id="gridLine10" class="leaderLine" style="stroke:#e71368; stroke-width:1" points="-84.602047,252.057866,-138.17493731658544,380.001,-510.75,380.001"></polyline>
+							<polyline id="gridLine11" class="leaderLine" style="stroke:#f89e2e; stroke-width:1" points="-206.31834,236.891365,-257.6885836948077,282.001,-550.75,282.001"></polyline>
+							<polyline id="gridLine12" class="leaderLine" style="stroke:#ca9b2f; stroke-width:1" points="-279.733309,140.455371,-342.3999589433111,180,-565.75,180"></polyline>
+							<polyline id="gridLine13" class="leaderLine" style="stroke:#43844c; stroke-width:1" points="-293.173188,39.587378,-358.868322,50,-551.75,50"></polyline>
+							<polyline id="gridLine14" class="leaderLine" style="stroke:#1794d6; stroke-width:1" points="-278.607347,-64.061055,-335.898309,-119.676094,-554.75,-119.676094"></polyline>
+							<polyline id="gridLine15" class="leaderLine" style="stroke:#62b446; stroke-width:1" points="-245.057594,-189.462853,-276.241589,-220,-556.75,-220"></polyline>
+							<polyline id="gridLine16" class="leaderLine" style="stroke:#126ca1; stroke-width:1" points="-161.460176,-266.704698,-181.3603023005893,-315.208054416577,-545.75,-315.208054416577"></polyline>
+							<polyline id="gridLine17" class="leaderLine" style="stroke:#064973; stroke-width:1" points="-57.999111,-308.325873,-91.284191,-390,-490.75,-390"></polyline>
+						</g>
+						<g class="circle">
+							<g id="circle1" class="cirPlc">
+								<defs>
+									<pattern id="goal1Middle" x="0%" y="0%" height="100%" width="100%">
+										<image x="0%" y="0%" width="216" height="216" xlink:href="images/wheel1.svg"></image>
+									</pattern>
+								</defs>
+								<circle fill="url(#goal1Middle)" cx="0" cy="0" r="108" />
+							</g>
+							<g id="circle2" class="cirPlc">
+								<defs>
+									<pattern id="goal2Middle" x="0%" y="0%" height="100%" width="100%">
+										<image x="0%" y="0%" width="216" height="216" xlink:href="images/wheel2.svg"></image>
+									</pattern>
+								</defs>
+								<circle fill="url(#goal2Middle)" cx="0" cy="0" r="108" />
+							</g>
+							<g id="circle3" class="cirPlc">
+								<defs>
+									<pattern id="goal3Middle" x="0%" y="0%" height="100%" width="100%">
+										<image x="0%" y="0%" width="216" height="216" xlink:href="images/wheel3.svg"></image>
+									</pattern>
+								</defs>
+								<circle fill="url(#goal3Middle)" cx="0" cy="0" r="108" />
+							</g>
+							<g id="circle4" class="cirPlc">
+								<defs>
+									<pattern id="goal4Middle" x="0%" y="0%" height="100%" width="100%">
+										<image x="0%" y="0%" width="216" height="216" xlink:href="images/wheel4.svg"></image>
+									</pattern>
+								</defs>
+								<circle fill="url(#goal4Middle)" cx="0" cy="0" r="108" />
+							</g>
+							<g id="circle5" class="cirPlc">
+								<defs>
+									<pattern id="goal5Middle" x="0%" y="0%" height="100%" width="100%">
+										<image x="0%" y="0%" width="216" height="216" xlink:href="images/wheel5.svg"></image>
+									</pattern>
+								</defs>
+								<circle fill="url(#goal5Middle)" cx="0" cy="0" r="108" />
+							</g>
+							<g id="circle6" class="cirPlc">
+								<defs>
+									<pattern id="goal6Middle" x="0%" y="0%" height="100%" width="100%">
+										<image x="0%" y="0%" width="216" height="216" xlink:href="images/wheel6.svg"></image>
+									</pattern>
+								</defs>
+								<circle fill="url(#goal6Middle)" cx="0" cy="0" r="108" />
+							</g>
+							<g id="circle7" class="cirPlc">
+								<defs>
+									<pattern id="goal7Middle" x="0%" y="0%" height="100%" width="100%">
+										<image x="0%" y="0%" width="216" height="216" xlink:href="images/wheel7.svg"></image>
+									</pattern>
+								</defs>
+								<circle fill="url(#goal7Middle)" cx="0" cy="0" r="108" />
+							</g>
+							<g id="circle8" class="cirPlc">
+								<defs>
+									<pattern id="goal8Middle" x="0%" y="0%" height="100%" width="100%">
+										<image x="0%" y="0%" width="216" height="216" xlink:href="images/wheel8.svg"></image>
+									</pattern>
+								</defs>
+								<circle fill="url(#goal8Middle)" cx="0" cy="0" r="108" />
+							</g>
+							<g id="circle9" class="cirPlc">
+								<defs>
+									<pattern id="goal9Middle" x="0%" y="0%" height="100%" width="100%">
+										<image x="0%" y="0%" width="216" height="216" xlink:href="images/wheel9.svg"></image>
+									</pattern>
+								</defs>
+								<circle fill="url(#goal9Middle)" cx="0" cy="0" r="108" />
+							</g>
+							<g id="circle10" class="cirPlc">
+								<defs>
+									<pattern id="goal10Middle" x="0%" y="0%" height="100%" width="100%">
+										<image x="0%" y="0%" width="216" height="216" xlink:href="images/wheel10.svg"></image>
+									</pattern>
+								</defs>
+								<circle fill="url(#goal10Middle)" cx="0" cy="0" r="108" />
+							</g>
+							<g id="circle11" class="cirPlc">
+								<defs>
+									<pattern id="goal11Middle" x="0%" y="0%" height="100%" width="100%">
+										<image x="0%" y="0%" width="216" height="216" xlink:href="images/wheel11.svg"></image>
+									</pattern>
+								</defs>
+								<circle fill="url(#goal11Middle)" cx="0" cy="0" r="108" />
+							</g>
+							<g id="circle12" class="cirPlc">
+								<defs>
+									<pattern id="goal12Middle" x="0%" y="0%" height="100%" width="100%">
+										<image x="0%" y="0%" width="216" height="216" xlink:href="images/wheel12.svg"></image>
+									</pattern>
+								</defs>
+								<circle fill="url(#goal12Middle)" cx="0" cy="0" r="108" />
+							</g>
+							<g id="circle13" class="cirPlc">
+								<defs>
+									<pattern id="goal13Middle" x="0%" y="0%" height="100%" width="100%">
+										<image x="0%" y="0%" width="216" height="216" xlink:href="images/wheel13.svg"></image>
+									</pattern>
+								</defs>
+								<circle fill="url(#goal13Middle)" cx="0" cy="0" r="108" />
+							</g>
+							<g id="circle14" class="cirPlc">
+								<defs>
+									<pattern id="goal14Middle" x="0%" y="0%" height="100%" width="100%">
+										<image x="0%" y="0%" width="216" height="216" xlink:href="images/wheel14.svg"></image>
+									</pattern>
+								</defs>
+								<circle fill="url(#goal14Middle)" cx="0" cy="0" r="108" />
+							</g>
+							<g id="circle15" class="cirPlc">
+								<defs>
+									<pattern id="goal15Middle" x="0%" y="0%" height="100%" width="100%">
+										<image x="0%" y="0%" width="216" height="216" xlink:href="images/wheel15.svg"></image>
+									</pattern>
+								</defs>
+								<circle fill="url(#goal15Middle)" cx="0" cy="0" r="108" />
+							</g>
+							<g id="circle16" class="cirPlc">
+								<defs>
+									<pattern id="goal16Middle" x="0%" y="0%" height="100%" width="100%">
+										<image x="0%" y="0%" width="216" height="216" xlink:href="images/wheel16.svg"></image>
+									</pattern>
+								</defs>
+								<circle fill="url(#goal16Middle)" cx="0" cy="0" r="108" />
+							</g>
+							<g id="circle17" class="cirPlc">
+								<defs>
+									<pattern id="goal17Middle" x="0%" y="0%" height="100%" width="100%">
+										<image x="0%" y="0%" width="216" height="216" xlink:href="images/wheel17.svg"></image>
+									</pattern>
+								</defs>
+								<circle fill="url(#goal17Middle)" cx="0" cy="0" r="108" />
+							</g>
+						</g>
+					</g>
+				</svg>
+				<div class="sdg-Content">
+					<ul class="ContGoal1" id="goal1Cont">
+						<li class="goalNum">1</li>
+						<li class="goalTxt">Engin fátækt</li>
+						<li class="goalImg"><img src="images/goal-1Img.svg" alt="No Poverty"></li>
+					</ul>
+					<ul class="ContGoal2" id="goal2Cont">
+						<li class="goalNum">2</li>
+						<li class="goalTxt">Ekkert hungur</li>
+						<li class="goalImg"><img src="images/goal-2Img.svg" alt=""></li>
+					</ul>
+					<ul class="ContGoal3" id="goal3Cont">
+						<li class="goalNum">3</li>
+						<li class="goalTxt">Heilsa og vellíðan</li>
+						<li class="goalImg"><img src="images/goal-3Img.svg" alt="No Poverty"></li>
+					</ul>
+					<ul class="ContGoal4" id="goal4Cont">
+						<li class="goalNum">4</li>
+						<li class="goalTxt">Menntun fyrir alla</li>
+						<li class="goalImg"><img src="images/goal-4Img.svg" alt="No Poverty"></li>
+					</ul>
+					<ul class="ContGoal5" id="goal5Cont">
+						<li class="goalNum">5</li>
+						<li class="goalTxt">Jafnrétti kynjanna</li>
+						<li class="goalImg"><img src="images/goal-5Img.svg" alt="No Poverty"></li>
+					</ul>
+					<ul class="ContGoal6" id="goal6Cont">
+						<li class="goalNum">6</li>
+						<li class="goalTxt">Hreint vatn og hreinlætisaðstaða</li>
+						<li class="goalImg"><img src="images/goal-6Img.svg" alt="No Poverty"></li>
+					</ul>
+					<ul class="ContGoal7" id="goal7Cont">
+						<li class="goalNum">7</li>
+						<li class="goalTxt">Sjálfbær orka</li>
+						<li class="goalImg"><img src="images/goal-7Img.svg" alt="No Poverty"></li>
+					</ul>
+					<ul class="ContGoal8" id="goal8Cont">
+						<li class="goalNum">8</li>
+						<li class="goalTxt">Góð atvinna og hagvöxtur</li>
+						<li class="goalImg"><img src="images/goal-8Img.svg" alt="No Poverty"></li>
+					</ul>
+					<ul class="ContGoal9" id="goal9Cont">
+						<li class="goalNum">9</li>
+						<li class="goalTxt">Nýsköpun og uppbygging</li>
+						<li class="goalImg"><img src="images/goal-9Img.svg" alt="No Poverty"></li>
+					</ul>
+					<ul class="ContGoal10" id="goal10Cont">
+						<li class="goalNum">10</li>
+						<li class="goalTxt">Aukinn jöfnuður</li>
+						<li class="goalImg"><img src="images/goal-10Img.svg" alt="No Poverty"></li>
+					</ul>
+					<ul class="ContGoal11" id="goal11Cont">
+						<li class="goalNum">11</li>
+						<li class="goalTxt">Sjálfbærar borgir og samfélög</li>
+						<li class="goalImg"><img src="images/goal-11Img.svg" alt="No Poverty"></li>
+					</ul>
+					<ul class="ContGoal12" id="goal12Cont">
+						<li class="goalNum">12</li>
+						<li class="goalTxt">Ábyrg neysla og framleiðsla</li>
+						<li class="goalImg"><img src="images/goal-12Img.svg" alt="No Poverty"></li>
+					</ul>
+					<ul class="ContGoal13" id="goal13Cont">
+						<li class="goalNum">13</li>
+						<li class="goalTxt">Aðgerðir í loftslagsmálum</li>
+						<li class="goalImg"><img src="images/goal-13Img.svg" alt="No Poverty"></li>
+					</ul>
+					<ul class="ContGoal14" id="goal14Cont">
+						<li class="goalNum">14</li>
+						<li class="goalTxt">Líf í vatni</li>
+						<li class="goalImg"><img src="images/goal-14Img.svg" alt="No Poverty"></li>
+					</ul>
+					<ul class="ContGoal15" id="goal15Cont">
+						<li class="goalNum">15</li>
+						<li class="goalTxt">Líf á landi</li>
+						<li class="goalImg"><img src="images/goal-15Img.svg" alt="No Poverty"></li>
+					</ul>
+					<ul class="ContGoal16" id="goal16Cont">
+						<li class="goalNum">16</li>
+						<li class="goalTxt">Friður og réttlæti</li>
+						<li class="goalImg"><img src="images/goal-16Img.svg" alt="No Poverty"></li>
+					</ul>
+					<ul class="ContGoal17" id="goal17Cont">
+						<li class="goalNum">17</li>
+						<li class="goalTxt">Samvinna um markmiðin</li>
+						<li class="goalImg"><img src="images/goal-17Img.svg" alt="No Poverty"></li>
+					</ul>
+				</div>
+				<div class="sdgTextBlocks" id="sdgTextBlocks" tabindex="-1">
+					<div id="sdgText1" class="sdg1Text">Goal-1</div>
+					<div id="sdgText2" class="sdg2Text">Poor people are less likely to have access to adequate food especially when it
+						has to be purchased.</div>
+					<div id="sdgText3" class="sdg3Text">Access to free health care is fundamental to poverty eradication.</div>
+					<div id="sdgText4" class="sdg4Text">Access to free education complements access to social protection and health
+						care.</div>
+					<div id="sdgText5" class="sdg5Text">Equitable treatment of women and girls is fundamental.</div>
+					<div id="sdgText6" class="sdg6Text">Important linkages between water access and poverty eradication</div>
+					<div id="sdgText7" class="sdg7Text">Access to modern and sustainable energy is fundamental for eliminating poverty</div>
+					<div id="sdgText8" class="sdg8Text">Macroeconomic policies stimulating full and productive employment and decent
+						work for all women and men are crucial</div>
+					<div id="sdgText9" class="sdg9Text">Industrialisation can make opportunities accessible to all people, while
+						distributing income and non income gains from prosperity more equally across society.</div>
+					<div id="sdgText10" class="sdg10Text">The reduction of inequality is of equal importance to eradicating poverty
+						and would be the surest way of ensuring it.</div>
+					<div id="sdgText11" class="sdg11Text">Increasingly important linkages between affordable housing and poverty.</div>
+					<div id="sdgText12" class="sdg12Text">Living standards, shelter, equal rights to economic resources are linked to
+						consumption and production patterns. </div>
+					<div id="sdgText13" class="sdg13Text">There are key linkages. Climate change impacts as well as climate policies
+						can have enormous impact on poor people in the next years.</div>
+					<div id="sdgText14" class="sdg14Text">Goal-14</div>
+					<div id="sdgText15" class="sdg15Text">Biodiversity and ecosystem services offer equitable and fair access to
+						natural resources.</div>
+					<div id="sdgText16" class="sdg16Text">Extreme poverty hinders prospects for peace and good governance.</div>
+					<div id="sdgText17" class="sdg17Text">Revitalizing the global partnership is fundamental to poverty eradication.</div>
+				</div>
+				<div class="innerLogo">
+					<img src="images/logo.png" alt="Sustainable Development Goals logo" />
 				</div>
 			</div>
-		</header>
-		<section class="svgPart">
-			<div class="conatiner-fluid">
-				<div class="conatiner mainContainer">
-				<span class="screen-reader-text"> Clicking on the following image link will update the content on the page</span>
-					<svg>
-						<g transform="translate(550,405)">
-							<g class="slices">
-								<a xlink:href="javascript:void(0);" onclick="bindSDGValue(this)" id="slice1" data-target=" .darkSlice1" class="text1">
-									<g class="scaleTransfrom">
-										<path class="slice" d="M2.029852069586738e-14,-331.5A331.5,331.5 0 0,1 119.75161234104118,-309.114544047544L41.452481194975796,-107.00118832414984A114.75000000000001,114.75000000000001 0 0,0 7.02641101010794e-15,-114.75000000000001Z" style="fill: rgb(229, 35, 62);"></path>							
-									</g>
-								</a>
-								<a xlink:href="javascript:void(0);" onclick="bindSDGValue(this)" id="slice2" data-target="#goal2Cont,  #gridLine2, #sdgText2, .darkSlice2" class="text2">
-									<g class="scaleTransfrom">
-										<path class="slice" d="M119.75161234104118,-309.114544047544A331.5,331.5 0 0,1 223.33010586883364,-244.98145605864858L77.30657510844243,-84.80127325107067A114.75000000000001,114.75000000000001 0 0,0 41.452481194975796,-107.00118832414984Z" style="fill: rgb(235, 180, 51);"></path>
-									</g>
-								</a>
-								<a xlink:href="javascript:void(0);" onclick="bindSDGValue(this)" id="slice3" data-target="#goal3Cont,  #slice13,  #slice2, #gridLine3,  #gridLine13,  #gridLine2, #sdgText3, #gridLine7, #slice7, .darkSlice3" class="text3">
-									<g class="scaleTransfrom">
-										<path class="slice" d="M223.33010586883364,-244.98145605864858A331.5,331.5 0 0,1 296.7466310842031,-147.76226493992257L102.71998768299339,-51.14847632535782A114.75000000000001,114.75000000000001 0 0,0 77.30657510844243,-84.80127325107067Z" style="fill: rgb(74, 159, 65);"></path>
-									</g>
-								</a>
-								<a xlink:href="javascript:void(0);" onclick="bindSDGValue(this)" id="slice4" data-target="#goal4Cont,  #gridLine4, #sdgText4, .darkSlice4" class="text4">
-									<g class="scaleTransfrom">
-										<path class="slice" d="M296.7466310842031,-147.76226493992257A331.5,331.5 0 0,1 330.0858794418039,-30.586961162084815L114.26049672985522,-10.587794248413976A114.75000000000001,114.75000000000001 0 0,0 102.71998768299339,-51.14847632535782Z" style="fill: rgb(199, 33, 47);"></path>
-									</g>
-								</a>
-								<a xlink:href="javascript:void(0);" onclick="bindSDGValue(this)" id="slice5" data-target="#goal5Cont,  #gridLine5, #sdgText5, .darkSlice5" class="text5">
-									<g class="scaleTransfrom">
-										<path class="slice" d="M330.0858794418039,-30.586961162084815A331.5,331.5 0 0,1 318.8452007117896,90.71928120889523L110.36949255408102,31.402828110771427A114.75000000000001,114.75000000000001 0 0,0 114.26049672985522,-10.587794248413976Z" style="fill: rgb(235, 64, 46);"></path>
-									</g>
-								</a>
-								<a xlink:href="javascript:void(0);" onclick="bindSDGValue(this)" id="slice6" data-target="#goal6Cont,  #gridLine6, #sdgText6, .darkSlice6" class="text6">
-									<g class="scaleTransfrom">
-										<path class="slice" d="M318.8452007117896,90.71928120889523A331.5,331.5 0 0,1 264.54271084339956,199.77338195972325L91.57247683040755,69.15232452451959A114.75000000000001,114.75000000000001 0 0,0 110.36949255408102,31.402828110771427Z" style="fill: rgb(34, 188, 238);"></path>
-									</g>
-								</a>
-								<a xlink:href="javascript:void(0);" onclick="bindSDGValue(this)" id="slice7" data-target="#goal7Cont,  #gridLine7, #sdgText7, .darkSlice7" class="text7">
-									<g class="scaleTransfrom">
-										<path class="slice" d="M264.54271084339956,199.77338195972325A331.5,331.5 0 0,1 174.51226199384377,281.8469804943669L60.40809069017669,97.56241632497317A114.75000000000001,114.75000000000001 0 0,0 91.57247683040755,69.15232452451959Z" style="fill: rgb(252, 196, 21);"></path>
-									</g>
-								</a>
-								<a xlink:href="javascript:void(0);" onclick="bindSDGValue(this)" id="slice8" data-target="#goal8Cont,  #gridLine8, #sdgText8, .darkSlice8" class="text8">
-									<g class="scaleTransfrom">
-										<path class="slice" d="M174.51226199384377,281.8469804943669A331.5,331.5 0 0,1 60.91296515619349,325.8555825452134L21.085257169451594,112.79616318872772A114.75000000000001,114.75000000000001 0 0,0 60.40809069017669,97.56241632497317Z" style="fill: rgb(163, 28, 68);"></path>
-									</g>
-								</a>
-								<a xlink:href="javascript:void(0);" onclick="bindSDGValue(this)" id="slice9" data-target="#goal9Cont , #gridLine9, #sdgText9, .darkSlice9" class="text9">
-									<g class="scaleTransfrom">
-										<path class="slice" d="M60.91296515619349,325.8555825452134A331.5,331.5 0 0,1 -60.91296515619258,325.8555825452135L-21.085257169451282,112.79616318872777A114.75000000000001,114.75000000000001 0 0,0 21.085257169451594,112.79616318872772Z" style="fill: rgb(241, 104, 49);"></path>
-									</g>
-								</a>
-								<a xlink:href="javascript:void(0);" onclick="bindSDGValue(this)" id="slice10" data-target="#goal10Cont, #slice12,  #gridLine10, #sdgText10, #gridLine12, .darkSlice10" class="text10">
-									<g class="scaleTransfrom">
-										<path class="slice" d="M-60.91296515619258,325.8555825452135A331.5,331.5 0 0,1 -174.51226199384297,281.84698049436736L-60.40809069017642,97.56241632497333A114.75000000000001,114.75000000000001 0 0,0 -21.085257169451282,112.79616318872777Z" style="fill: rgb(231, 19, 104);"></path>
-									</g>
-								</a>
-								<a xlink:href="javascript:void(0);" onclick="bindSDGValue(this)" id="slice11" data-target="#goal11Cont,  #gridLine11, #sdgText11, .darkSlice11" class="text11">
-									<g class="scaleTransfrom">
-										<path class="slice" d="M-174.51226199384297,281.84698049436736A331.5,331.5 0 0,1 -264.54271084339905,199.77338195972396L-91.57247683040737,69.15232452451984A114.75000000000001,114.75000000000001 0 0,0 -60.40809069017642,97.56241632497333Z" style="fill: rgb(248, 158, 46);"></path>
-									</g>
-								</a>
-								<a xlink:href="javascript:void(0);" onclick="bindSDGValue(this)" id="slice12" data-target="#goal12Cont, #slice10, #gridLine10, #gridLine12, #sdgText12, .darkSlice12" class="text12">
-									<g class="scaleTransfrom">
-										<path class="slice" d="M-264.54271084339905,199.77338195972396A331.5,331.5 0 0,1 -318.84520071178935,90.7192812088961L-110.36949255408094,31.402828110771733A114.75000000000001,114.75000000000001 0 0,0 -91.57247683040737,69.15232452451984Z" style="fill: rgb(202, 155, 47);"></path>
-									</g>
-								</a>
-								<a xlink:href="javascript:void(0);" onclick="bindSDGValue(this)" id="slice13" data-target="#goal13Cont,  #gridLine13, #sdgText13, .darkSlice13" class="text13">
-									<g class="scaleTransfrom">
-										<path class="slice" d="M-318.84520071178935,90.7192812088961A331.5,331.5 0 0,1 -330.085879441804,-30.586961162083895L-114.26049672985525,-10.587794248413658A114.75000000000001,114.75000000000001 0 0,0 -110.36949255408094,31.402828110771733Z" style="fill: rgb(67, 132, 76);"></path>
-									</g>
-								</a>
-								<a xlink:href="javascript:void(0);" onclick="bindSDGValue(this)" id="slice14"  data-target="#goal14Cont, #slice1, #gridLine14, #sdgText14, #gridLine1, .darkSlice14" class="text14">
-									<g class="scaleTransfrom">
-										<path class="slice" d="M-330.085879441804,-30.586961162083895A331.5,331.5 0 0,1 -296.7466310842035,-147.76226493992175L-102.71998768299353,-51.148476325357535A114.75000000000001,114.75000000000001 0 0,0 -114.26049672985525,-10.587794248413658Z" style="fill: rgb(23, 148, 214);"></path>
-									</g>
-								</a>
-								<a xlink:href="javascript:void(0);" onclick="bindSDGValue(this)" id="slice15" data-target="#goal15Cont, #gridLine15, #sdgText15, .darkSlice15" class="text15">
-									<g class="scaleTransfrom">
-										<path class="slice" d="M-296.7466310842035,-147.76226493992175A331.5,331.5 0 0,1 -223.33010586883435,-244.98145605864795L-77.30657510844267,-84.80127325107046A114.75000000000001,114.75000000000001 0 0,0 -102.71998768299353,-51.148476325357535Z" style="fill: rgb(98, 180, 70);"></path>
-									</g>
-								</a>
-								<a xlink:href="javascript:void(0);" onclick="bindSDGValue(this)" id="slice16" data-target="#goal16Cont, #gridLine16, #sdgText16, .darkSlice16" class="text16">
-									<g class="scaleTransfrom">
-										<path class="slice" d="M-223.33010586883435,-244.98145605864795A331.5,331.5 0 0,1 -119.75161234104202,-309.11454404754363L-41.45248119497609,-107.00118832414972A114.75000000000001,114.75000000000001 0 0,0 -77.30657510844267,-84.80127325107046Z" style="fill: rgb(18, 108, 161);"></path>
-									</g>
-								</a>
-								<a xlink:href="javascript:void(0);" onclick="bindSDGValue(this)" id="slice17" data-target="#goal17Cont,  #gridLine17, #sdgText17, .darkSlice17" class="text17">
-									<g class="scaleTransfrom">
-										<path class="slice" d="M-119.75161234104202,-309.11454404754363A331.5,331.5 0 0,1 -9.441890004793767e-13,-331.5L-3.26834654012092e-13,-114.75000000000001A114.75000000000001,114.75000000000001 0 0,0 -41.45248119497609,-107.00118832414972Z" style="fill: rgb(6, 73, 115);"></path>
-									</g>
-								</a>
-							</g>
+	</section>
 
 
+</body>
+<script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
 
+<script type="text/javascript" src="js/custom.js"></script>
+<script src="js/jssocials.min.js"></script>
+<script>
+	$("#share").jsSocials({
+		shares: ["email", "facebook", "twitter", "linkedin"],
+		showLabel: false,
+	});
+</script>
 
+<script>
+	$(document).ready(function () {
+		setTimeout(function () {
+			$(".jssocials-share-link:eq(0)").attr('aria-label', 'Mail to');
+		}, 100)
+	})
+</script>
 
-							
-							<g class="slices2" transform="scale(0.565,0.565)">
-								<g class="darkSlice darkSlice1">
-									<path class="sliceBlack" id="sdgBlc1" d="M2.029852069586738e-14,-331.5A331.5,331.5 0 0,1 119.75161234104118,-309.114544047544L73.69329990217919,-190.2243347984886A204,204 0 0,0 1.2491397351303002e-14,-204Z"  style="fill: rgba(0,0,0,0.3);"></path>
-								</g>
-								<g class="darkSlice darkSlice2">
-									<path class="sliceBlack"  d="M119.75161234104118,-309.114544047544A331.5,331.5 0 0,1 223.33010586883364,-244.98145605864858L137.43391130389762,-150.7578191130145A204,204 0 0,0 73.69329990217919,-190.2243347984886Z" style="fill: rgba(0,0,0,0.3);"></path>
-								</g>
-								<g class="darkSlice darkSlice3">
-									<path class="sliceBlack" d="M223.33010586883364,-244.98145605864858A331.5,331.5 0 0,1 296.7466310842031,-147.76226493992257L182.61331143643267,-90.9306245784139A204,204 0 0,0 137.43391130389762,-150.7578191130145Z" style="fill: rgba(0,0,0,0.3);"></path>
-								</g>
-								<g class="darkSlice darkSlice4">
-									<path class="sliceBlack" d="M296.7466310842031,-147.76226493992257A331.5,331.5 0 0,1 330.0858794418039,-30.586961162084815L203.12977196418703,-18.822745330513733A204,204 0 0,0 182.61331143643267,-90.9306245784139Z" style="fill: rgba(0,0,0,0.3);"></path>
-								</g>
-								<g class="darkSlice darkSlice5">
-									<path class="sliceBlack" d="M330.0858794418039,-30.586961162084815A331.5,331.5 0 0,1 318.8452007117896,90.71928120889523L196.21243120725512,55.82724997470475A204,204 0 0,0 203.12977196418703,-18.822745330513733Z" style="fill: rgba(0,0,0,0.3);"></path>
-								</g>
-								<g class="darkSlice darkSlice6">
-									<path class="sliceBlack" d="M318.8452007117896,90.71928120889523A331.5,331.5 0 0,1 264.54271084339956,199.77338195972325L162.79551436516897,122.93746582136815A204,204 0 0,0 196.21243120725512,55.82724997470475Z" style="fill: rgba(0,0,0,0.3);"></path>
-								</g>
-								<g class="darkSlice darkSlice7">
-									<path class="sliceBlack" d="M264.54271084339956,199.77338195972325A331.5,331.5 0 0,1 174.51226199384377,281.8469804943669L107.39216122698078,173.44429568884115A204,204 0 0,0 162.79551436516897,122.93746582136815Z" style="fill: rgba(0,0,0,0.3);"></path>
-								</g>
-								<g class="darkSlice darkSlice8">
-									<path class="sliceBlack" d="M174.51226199384377,281.8469804943669A331.5,331.5 0 0,1 60.91296515619349,325.8555825452134L37.48490163458061,200.52651233551592A204,204 0 0,0 107.39216122698078,173.44429568884115Z" style="fill: rgba(0,0,0,0.3);"></path>
-								</g>
-								<g class="darkSlice darkSlice9">
-									<path class="sliceBlack" d="M60.91296515619349,325.8555825452134A331.5,331.5 0 0,1 -60.91296515619258,325.8555825452135L-37.48490163458005,200.526512335516A204,204 0 0,0 37.48490163458061,200.52651233551592Z" style="fill: rgba(0,0,0,0.3);"></path>
-								</g>
-								<g class="darkSlice darkSlice10">
-									<path class="sliceBlack" d="M-60.91296515619258,325.8555825452135A331.5,331.5 0 0,1 -174.51226199384297,281.84698049436736L-107.39216122698029,173.44429568884146A204,204 0 0,0 -37.48490163458005,200.526512335516Z" style="fill: rgba(0,0,0,0.3);"></path>
-								</g>
-								<g class="darkSlice darkSlice11">
-									<path class="sliceBlack" d="M-174.51226199384297,281.84698049436736A331.5,331.5 0 0,1 -264.54271084339905,199.77338195972396L-162.79551436516863,122.9374658213686A204,204 0 0,0 -107.39216122698029,173.44429568884146Z" style="fill: rgba(0,0,0,0.3);"></path>
-								</g>
-								<g class="darkSlice darkSlice12">
-									<path class="sliceBlack" d="M-264.54271084339905,199.77338195972396A331.5,331.5 0 0,1 -318.84520071178935,90.7192812088961L-196.21243120725498,55.827249974705296A204,204 0 0,0 -162.79551436516863,122.9374658213686Z" style="fill: rgba(0,0,0,0.3);"></path>
-								</g>
-								<g class="darkSlice darkSlice13">
-									<path class="sliceBlack" d="M-318.84520071178935,90.7192812088961A331.5,331.5 0 0,1 -330.085879441804,-30.586961162083895L-203.12977196418709,-18.82274533051317A204,204 0 0,0 -196.21243120725498,55.827249974705296Z" style="fill: rgba(0,0,0,0.3);"></path>
-								</g>
-								<g class="darkSlice darkSlice14">
-									<path class="sliceBlack" d="M-330.085879441804,-30.586961162083895A331.5,331.5 0 0,1 -296.7466310842035,-147.76226493992175L-182.61331143643292,-90.93062457841339A204,204 0 0,0 -203.12977196418709,-18.82274533051317Z" style="fill: rgba(0,0,0,0.3);"></path>
-								</g>
-								<g class="darkSlice darkSlice15">
-									<path class="sliceBlack" d="M-296.7466310842035,-147.76226493992175A331.5,331.5 0 0,1 -223.33010586883435,-244.98145605864795L-137.43391130389804,-150.7578191130141A204,204 0 0,0 -182.61331143643292,-90.93062457841339Z" style="fill: rgba(0,0,0,0.3);"></path>
-								</g>
-								<g class="darkSlice darkSlice16">
-									<path class="sliceBlack" d="M-223.33010586883435,-244.98145605864795A331.5,331.5 0 0,1 -119.75161234104202,-309.11454404754363L-73.6932999021797,-190.22433479848837A204,204 0 0,0 -137.43391130389804,-150.7578191130141Z" style="fill: rgba(0,0,0,0.3);"></path>
-								</g>
-								<g class="darkSlice darkSlice17">
-									<path class="sliceBlack" d="M-119.75161234104202,-309.11454404754363A331.5,331.5 0 0,1 -9.441890004793767e-13,-331.5L-5.810393849103856e-13,-204A204,204 0 0,0 -73.6932999021797,-190.22433479848837Z" style="fill: rgba(0,0,0,0.3);"></path>
-								</g>
-							</g>
-
-
-
-							
-							
-							<g class="lines">
-								<polyline id="gridLine1"  class="leaderLine" style="stroke:#e5233e; stroke-width:1" points="44.999111,-296.325873,94.284191,-380,492.75,-380"></polyline>
-								<polyline id="gridLine2" class="leaderLine" style="stroke:#ebb433; stroke-width:1" points="164.460176,-267.704698,192.36030230058853,-290,550.75,-290"></polyline>
-								<polyline id="gridLine3" class="leaderLine" style="stroke:#4a9f41; stroke-width:1" points="226.057594,-161.462853,285.241589,-210,558.75,-210"></polyline>
-								<polyline id="gridLine4" class="leaderLine" style="stroke:#c7212f; stroke-width:1" points="298.607347,-85.061055,337.898309,-120,579.75,-120"></polyline>
-								<polyline id="gridLine5" class="leaderLine" style="stroke:#eb402e; stroke-width:1" points="288.173188,46.587378,350.868322,5.292647,534.75,5.292647"></polyline>
-								<polyline id="gridLine6" class="leaderLine" style="stroke:#22bcee; stroke-width:1" points="260.733309,154.455371,322.399959,180,535.75,180"></polyline>
-								<polyline id="gridLine7" class="leaderLine" style="stroke:#fcc415; stroke-width:1" points="206.31834,227.891365,257.6885836948084,280,574.75,280"></polyline>
-								<polyline id="gridLine8" class="leaderLine" style="stroke:#a31c44; stroke-width:1" points="98.602047,279.057866,138.17493731658644,346.67062774716595,526.75,346.67062774716595"></polyline>
-								<polyline id="gridLine9" class="leaderLine" style="stroke:#f16831; stroke-width:1" points="0.890753,300.125,64.330137,423.5,526.75,423.5"></polyline>
-								<polyline id="gridLine10" class="leaderLine" style="stroke:#e71368; stroke-width:1" points="-84.602047,252.057866,-138.17493731658544,380.001,-510.75,380.001"></polyline>
-								<polyline id="gridLine11" class="leaderLine" style="stroke:#f89e2e; stroke-width:1" points="-206.31834,236.891365,-257.6885836948077,282.001,-550.75,282.001"></polyline>
-								<polyline id="gridLine12" class="leaderLine" style="stroke:#ca9b2f; stroke-width:1" points="-279.733309,140.455371,-342.3999589433111,180,-565.75,180"></polyline>
-								<polyline id="gridLine13" class="leaderLine" style="stroke:#43844c; stroke-width:1" points="-293.173188,39.587378,-358.868322,50,-551.75,50"></polyline>
-								<polyline id="gridLine14" class="leaderLine" style="stroke:#1794d6; stroke-width:1" points="-278.607347,-64.061055,-335.898309,-119.676094,-554.75,-119.676094"></polyline>
-								<polyline id="gridLine15" class="leaderLine" style="stroke:#62b446; stroke-width:1" points="-245.057594,-189.462853,-276.241589,-220,-556.75,-220"></polyline>
-								<polyline id="gridLine16" class="leaderLine" style="stroke:#126ca1; stroke-width:1" points="-161.460176,-266.704698,-181.3603023005893,-315.208054416577,-545.75,-315.208054416577"></polyline>
-								<polyline id="gridLine17" class="leaderLine" style="stroke:#064973; stroke-width:1" points="-57.999111,-308.325873,-91.284191,-390,-490.75,-390"></polyline>
-							</g>
-							<g class="circle">
-								<g id="circle1" class="cirPlc">
-									<defs>
-									    <pattern id="goal1Middle" x="0%" y="0%" height="100%" width="100%">
-									      <image x="0%" y="0%" width="216" height="216" xlink:href="images/wheel1.svg"></image>
-									    </pattern>
-									  </defs>
-									<circle fill="url(#goal1Middle)" cx="0" cy="0" r="108" />
-					    		</g>
-								<g id="circle2" class="cirPlc">
-						    		<defs>
-									    <pattern id="goal2Middle" x="0%" y="0%" height="100%" width="100%">
-									      <image x="0%" y="0%" width="216" height="216" xlink:href="images/wheel2.svg"></image>
-									    </pattern>
-									  </defs>
-						    		<circle fill="url(#goal2Middle)" cx="0" cy="0" r="108" />
-								</g>
-								<g id="circle3" class="cirPlc">
-						    		<defs>
-									    <pattern id="goal3Middle" x="0%" y="0%" height="100%" width="100%">
-									      <image x="0%" y="0%" width="216" height="216" xlink:href="images/wheel3.svg"></image>
-									    </pattern>
-									  </defs>
-						    		<circle fill="url(#goal3Middle)" cx="0" cy="0" r="108" />
-					    		</g>
-								<g id="circle4" class="cirPlc">
-						    		<defs>
-									    <pattern id="goal4Middle" x="0%" y="0%" height="100%" width="100%">
-									      <image x="0%" y="0%" width="216" height="216" xlink:href="images/wheel4.svg"></image>
-									    </pattern>
-									  </defs>
-						    		<circle fill="url(#goal4Middle)" cx="0" cy="0" r="108" />
-						    	</g>
-								<g id="circle5" class="cirPlc">
-						    		<defs>
-									    <pattern id="goal5Middle" x="0%" y="0%" height="100%" width="100%">
-									      <image x="0%" y="0%" width="216" height="216" xlink:href="images/wheel5.svg"></image>
-									    </pattern>
-									  </defs>
-						    		<circle fill="url(#goal5Middle)" cx="0" cy="0" r="108" />
-								</g>
-								<g id="circle6" class="cirPlc">
-						    		<defs>
-									    <pattern id="goal6Middle" x="0%" y="0%" height="100%" width="100%">
-									      <image x="0%" y="0%" width="216" height="216" xlink:href="images/wheel6.svg"></image>
-									    </pattern>
-									  </defs>
-						    		<circle fill="url(#goal6Middle)" cx="0" cy="0" r="108" />
-								</g>
-								<g id="circle7" class="cirPlc">
-						    		<defs>
-									    <pattern id="goal7Middle" x="0%" y="0%" height="100%" width="100%">
-									      <image x="0%" y="0%" width="216" height="216" xlink:href="images/wheel7.svg"></image>
-									    </pattern>
-									  </defs>
-						    		<circle fill="url(#goal7Middle)" cx="0" cy="0" r="108" />
-					    		</g>
-								<g id="circle8" class="cirPlc">
-						    		<defs>
-									    <pattern id="goal8Middle" x="0%" y="0%" height="100%" width="100%">
-									      <image x="0%" y="0%" width="216" height="216" xlink:href="images/wheel8.svg"></image>
-									    </pattern>
-									  </defs>
-						    		<circle fill="url(#goal8Middle)" cx="0" cy="0" r="108" />
-					    		</g>
-								<g id="circle9" class="cirPlc">
-						    		<defs>
-									    <pattern id="goal9Middle" x="0%" y="0%" height="100%" width="100%">
-									      <image x="0%" y="0%" width="216" height="216" xlink:href="images/wheel9.svg"></image>
-									    </pattern>
-									  </defs>
-						    		<circle fill="url(#goal9Middle)" cx="0" cy="0" r="108" />
-					    		</g>
-								<g id="circle10" class="cirPlc">
-						    		<defs>
-									    <pattern id="goal10Middle" x="0%" y="0%" height="100%" width="100%">
-									      <image x="0%" y="0%" width="216" height="216" xlink:href="images/wheel10.svg"></image>
-									    </pattern>
-									  </defs>
-						    		<circle fill="url(#goal10Middle)" cx="0" cy="0" r="108" />
-					    		</g>
-								<g id="circle11" class="cirPlc">
-						    		<defs>
-									    <pattern id="goal11Middle" x="0%" y="0%" height="100%" width="100%">
-									      <image x="0%" y="0%" width="216" height="216" xlink:href="images/wheel11.svg"></image>
-									    </pattern>
-									  </defs>
-						    		<circle fill="url(#goal11Middle)" cx="0" cy="0" r="108" />
-					    		</g>
-								<g id="circle12" class="cirPlc">
-						    		<defs>
-									    <pattern id="goal12Middle" x="0%" y="0%" height="100%" width="100%">
-									      <image x="0%" y="0%" width="216" height="216" xlink:href="images/wheel12.svg"></image>
-									    </pattern>
-									  </defs>
-						    		<circle fill="url(#goal12Middle)" cx="0" cy="0" r="108" />
-					    		</g>
-								<g id="circle13" class="cirPlc">
-						    		<defs>
-									    <pattern id="goal13Middle" x="0%" y="0%" height="100%" width="100%">
-									      <image x="0%" y="0%" width="216" height="216" xlink:href="images/wheel13.svg"></image>
-									    </pattern>
-									  </defs>
-						    		<circle fill="url(#goal13Middle)" cx="0" cy="0" r="108" />
-					    		</g>
-								<g id="circle14" class="cirPlc">
-						    		<defs>
-									    <pattern id="goal14Middle" x="0%" y="0%" height="100%" width="100%">
-									      <image x="0%" y="0%" width="216" height="216" xlink:href="images/wheel14.svg"></image>
-									    </pattern>
-									  </defs>
-						    		<circle fill="url(#goal14Middle)" cx="0" cy="0" r="108" />
-					    		</g>
-								<g id="circle15" class="cirPlc">
-						    		<defs>
-									    <pattern id="goal15Middle" x="0%" y="0%" height="100%" width="100%">
-									      <image x="0%" y="0%" width="216" height="216" xlink:href="images/wheel15.svg"></image>
-									    </pattern>
-									  </defs>
-						    		<circle fill="url(#goal15Middle)" cx="0" cy="0" r="108" />
-					    		</g>
-								<g id="circle16" class="cirPlc">
-									<defs>
-									    <pattern id="goal16Middle" x="0%" y="0%" height="100%" width="100%">
-									      <image x="0%" y="0%" width="216" height="216" xlink:href="images/wheel16.svg"></image>
-									    </pattern>
-									  </defs>
-						    		<circle fill="url(#goal16Middle)" cx="0" cy="0" r="108" />
-					    		</g>
-								<g id="circle17" class="cirPlc">
-						    		<defs>
-									    <pattern id="goal17Middle" x="0%" y="0%" height="100%" width="100%">
-									      <image x="0%" y="0%" width="216" height="216" xlink:href="images/wheel17.svg"></image>
-									    </pattern>
-									  </defs>
-						    		<circle fill="url(#goal17Middle)" cx="0" cy="0" r="108" />
-								</g>
-							</g>					
-						</g>
-					</svg>
-					<div class="sdg-Content">
-						<ul class="ContGoal1" id="goal1Cont">
-							<li class="goalNum">1</li>
-							<li class="goalTxt">Engin fátækt</li>
-							<li class="goalImg"><img src="images/goal-1Img.svg" alt="No Poverty"></li>
-						</ul>
-						<ul class="ContGoal2" id="goal2Cont">
-							<li class="goalNum">2</li>
-							<li class="goalTxt">Ekkert hungur</li>
-							<li class="goalImg"><img src="images/goal-2Img.svg" alt=""></li>
-						</ul>
-						<ul class="ContGoal3" id="goal3Cont">
-							<li class="goalNum">3</li>
-							<li class="goalTxt">Heilsa og vellíðan</li>
-							<li class="goalImg"><img src="images/goal-3Img.svg" alt="No Poverty"></li>
-						</ul>
-						<ul class="ContGoal4" id="goal4Cont">
-							<li class="goalNum">4</li>
-							<li class="goalTxt">Menntun fyrir alla</li>
-							<li class="goalImg"><img src="images/goal-4Img.svg" alt="No Poverty"></li>
-						</ul>
-						<ul class="ContGoal5" id="goal5Cont">
-							<li class="goalNum">5</li>
-							<li class="goalTxt">Jafnrétti kynjanna</li>
-							<li class="goalImg"><img src="images/goal-5Img.svg" alt="No Poverty"></li>
-						</ul>
-						<ul class="ContGoal6" id="goal6Cont">
-							<li class="goalNum">6</li>
-							<li class="goalTxt">Hreint vatn og hreinlætisaðstaða</li>
-							<li class="goalImg"><img src="images/goal-6Img.svg" alt="No Poverty"></li>
-						</ul>
-						<ul class="ContGoal7" id="goal7Cont">
-							<li class="goalNum">7</li>
-							<li class="goalTxt">Sjálfbær orka</li>
-							<li class="goalImg"><img src="images/goal-7Img.svg" alt="No Poverty"></li>
-						</ul>
-						<ul class="ContGoal8" id="goal8Cont">
-							<li class="goalNum">8</li>
-							<li class="goalTxt">Góð atvinna og hagvöxtur</li>
-							<li class="goalImg"><img src="images/goal-8Img.svg" alt="No Poverty"></li>
-						</ul>
-						<ul class="ContGoal9" id="goal9Cont">
-							<li class="goalNum">9</li>
-							<li class="goalTxt">Nýsköpun og uppbygging</li>
-							<li class="goalImg"><img src="images/goal-9Img.svg" alt="No Poverty"></li>
-						</ul>
-						<ul class="ContGoal10" id="goal10Cont">
-							<li class="goalNum">10</li>
-							<li class="goalTxt">Aukinn jöfnuður</li>
-							<li class="goalImg"><img src="images/goal-10Img.svg" alt="No Poverty"></li>
-						</ul>
-						<ul class="ContGoal11" id="goal11Cont">
-							<li class="goalNum">11</li>
-							<li class="goalTxt">Sjálfbærar borgir og samfélög</li>
-							<li class="goalImg"><img src="images/goal-11Img.svg" alt="No Poverty"></li>
-						</ul>
-						<ul class="ContGoal12" id="goal12Cont">
-							<li class="goalNum">12</li>
-							<li class="goalTxt">Ábyrg neysla og framleiðsla</li>
-							<li class="goalImg"><img src="images/goal-12Img.svg" alt="No Poverty"></li>
-						</ul>
-						<ul class="ContGoal13" id="goal13Cont">
-							<li class="goalNum">13</li>
-							<li class="goalTxt">Aðgerðir í loftslagsmálum</li>
-							<li class="goalImg"><img src="images/goal-13Img.svg" alt="No Poverty"></li>
-						</ul>
-						<ul class="ContGoal14" id="goal14Cont">
-							<li class="goalNum">14</li>
-							<li class="goalTxt">Líf í vatni</li>
-							<li class="goalImg"><img src="images/goal-14Img.svg" alt="No Poverty"></li>
-						</ul>
-						<ul class="ContGoal15" id="goal15Cont">
-							<li class="goalNum">15</li>
-							<li class="goalTxt">Líf á landi</li>
-							<li class="goalImg"><img src="images/goal-15Img.svg" alt="No Poverty"></li>
-						</ul>
-						<ul class="ContGoal16" id="goal16Cont">
-							<li class="goalNum">16</li>
-							<li class="goalTxt">Friður og réttlæti</li>
-							<li class="goalImg"><img src="images/goal-16Img.svg" alt="No Poverty"></li>
-						</ul>
-						<ul class="ContGoal17" id="goal17Cont">
-							<li class="goalNum">17</li>
-							<li class="goalTxt">Samvinna um markmiðin</li>
-							<li class="goalImg"><img src="images/goal-17Img.svg" alt="No Poverty"></li>
-						</ul>
-					</div>
-					<div class="sdgTextBlocks" id="sdgTextBlocks" tabindex="-1">
-						<div id="sdgText1" class="sdg1Text">Goal-1</div>
-						<div id="sdgText2" class="sdg2Text">Poor people are less likely to have access to adequate food especially when it has to be purchased.</div>
-						<div id="sdgText3" class="sdg3Text">Access to free health care is fundamental to poverty eradication.</div>
-						<div id="sdgText4" class="sdg4Text">Access to free education complements access to social protection and health care.</div>
-						<div id="sdgText5" class="sdg5Text">Equitable treatment of women and girls is fundamental.</div>
-						<div id="sdgText6" class="sdg6Text">Important linkages between water access and poverty eradication</div>
-						<div id="sdgText7" class="sdg7Text">Access to modern and sustainable energy is fundamental for eliminating poverty</div>
-						<div id="sdgText8" class="sdg8Text">Macroeconomic policies stimulating full and productive employment and decent work for all women and men are crucial</div>
-						<div id="sdgText9" class="sdg9Text">Industrialisation can make opportunities accessible to all people, while distributing income and non income gains from prosperity more equally across society.</div>
-						<div id="sdgText10" class="sdg10Text">The reduction of inequality is of equal importance to eradicating poverty and would be the surest way of ensuring it.</div>
-						<div id="sdgText11" class="sdg11Text">Increasingly important linkages between affordable housing and poverty.</div>
-						<div id="sdgText12" class="sdg12Text">Living standards, shelter, equal rights to economic resources are linked to consumption and production patterns. </div>
-						<div id="sdgText13" class="sdg13Text">There are key linkages. Climate change impacts as well as climate policies can have enormous impact on poor people in the next years.</div>
-						<div id="sdgText14" class="sdg14Text">Goal-14</div>
-						<div id="sdgText15" class="sdg15Text">Biodiversity and ecosystem services offer equitable and fair access to natural resources.</div>
-						<div id="sdgText16" class="sdg16Text">Extreme poverty hinders prospects for peace and good governance.</div>
-						<div id="sdgText17" class="sdg17Text">Revitalizing the global partnership is fundamental to poverty eradication.</div>
-					</div>
-					<div class="innerLogo">
-						<img src="images/logo.png" alt="Sustainable Development Goals logo"/>
-					</div>
-			</div>
-		</section>
-
-		
-	</body>
-	<script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
-
-    <script type="text/javascript" src="js/custom.js"></script>
-    <script src="js/jssocials.min.js"></script>
-    <script>
-        $("#share").jsSocials({
-            shares: ["email", "facebook", "twitter",  "linkedin"],
-            showLabel: false,
-        });
-    </script>
-
-    <script>
-    	$(document).ready(function(){
-    		setTimeout(function(){
-    		$(".jssocials-share-link:eq(0)").attr('aria-label', 'Mail to');
-    	},100)
-    	})
-    </script>
 </html>

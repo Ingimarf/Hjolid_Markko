@@ -4,24 +4,24 @@ jQuery.getJSON("./data.json").then(data => {
   SDGGoals = data;
 });
 // Set click handlers and more when document is ready
-$(document).ready(function() {
-  $(".slices > a").click(function() {
+$(document).ready(function () {
+  $(".slices > a").click(function () {
     $(".leaderLine").addClass("show");
     $(".sdgTextBlocks").addClass("show");
     $(".sdgTextBlocks > div").addClass("change");
     $(".reset").addClass("resetActive");
     $(".mainContainer").addClass("spiderMode");
 
-    setTimeout(function() {
+    setTimeout(function () {
       $(".sdgTextBlocks > div").removeClass("change");
     }, 800);
   });
 
-  $(".slices > a.sliceActive").click(function() {
+  $(".slices > a.sliceActive").click(function () {
     alert();
   });
 
-  $(".slices > a").click(function(event) {
+  $(".slices > a").click(function (event) {
     var first = $(event.target)
       .closest("a")
       .attr("class")
@@ -33,7 +33,7 @@ $(document).ready(function() {
     $("body").addClass(first);
   });
 
-  $(".reset > a").on("click", function() {
+  $(".reset > a").on("click", function () {
     $(".slices > a").removeClass("hideCont");
     $(".leaderLine").removeClass("show");
     $(".sdgTextBlocks").removeClass("show");
@@ -50,7 +50,7 @@ $(document).ready(function() {
   });
 
   //Circle-1
-  $("#slice1").click(function() {
+  $("#slice1").click(function () {
     $(".cirPlc").removeClass("showPermanant");
     $("#circle1").addClass("showPermanant");
     $("#circle1").removeClass("inrCircHide");
@@ -58,17 +58,17 @@ $(document).ready(function() {
       .siblings()
       .addClass("inrCircHide");
   });
-  $("#slice1").mouseover(function() {
+  $("#slice1").mouseover(function () {
     $("#circle1").addClass("show");
   });
 
-  $("#slice1").mouseout(function() {
+  $("#slice1").mouseout(function () {
     $("#circle1").removeClass("show");
   });
 
   //Circle-2
 
-  $("#slice2").click(function() {
+  $("#slice2").click(function () {
     $(".cirPlc").removeClass("showPermanant");
     $("#circle2").toggleClass("showPermanant");
     $("#circle2").removeClass("inrCircHide");
@@ -76,17 +76,17 @@ $(document).ready(function() {
       .siblings()
       .addClass("inrCircHide");
   });
-  $("#slice2").mouseover(function() {
+  $("#slice2").mouseover(function () {
     $("#circle2").addClass("show");
   });
 
-  $("#slice2").mouseout(function() {
+  $("#slice2").mouseout(function () {
     $("#circle2").removeClass("show");
   });
 
   //Circle-3
 
-  $("#slice3").click(function() {
+  $("#slice3").click(function () {
     $(".cirPlc").removeClass("showPermanant");
     $("#circle3").toggleClass("showPermanant");
     $("#circle3").removeClass("inrCircHide");
@@ -94,15 +94,15 @@ $(document).ready(function() {
       .siblings()
       .addClass("inrCircHide");
   });
-  $("#slice3").mouseover(function() {
+  $("#slice3").mouseover(function () {
     $("#circle3").addClass("show");
   });
 
-  $("#slice3").mouseout(function() {
+  $("#slice3").mouseout(function () {
     $("#circle3").removeClass("show");
   });
 
-  $("#slice4").click(function() {
+  $("#slice4").click(function () {
     $(".cirPlc").removeClass("showPermanant");
     $("#circle4").toggleClass("showPermanant");
     $("#circle4").removeClass("inrCircHide");
@@ -110,15 +110,15 @@ $(document).ready(function() {
       .siblings()
       .addClass("inrCircHide");
   });
-  $("#slice4").mouseover(function() {
+  $("#slice4").mouseover(function () {
     $("#circle4").addClass("show");
   });
 
-  $("#slice4").mouseout(function() {
+  $("#slice4").mouseout(function () {
     $("#circle4").removeClass("show");
   });
 
-  $("#slice5").click(function() {
+  $("#slice5").click(function () {
     $(".cirPlc").removeClass("showPermanant");
     $("#circle5").toggleClass("showPermanant");
     $("#circle5").removeClass("inrCircHide");
@@ -126,15 +126,15 @@ $(document).ready(function() {
       .siblings()
       .addClass("inrCircHide");
   });
-  $("#slice5").mouseover(function() {
+  $("#slice5").mouseover(function () {
     $("#circle5").addClass("show");
   });
 
-  $("#slice5").mouseout(function() {
+  $("#slice5").mouseout(function () {
     $("#circle5").removeClass("show");
   });
 
-  $("#slice6").click(function() {
+  $("#slice6").click(function () {
     $(".cirPlc").removeClass("showPermanant");
     $("#circle6").toggleClass("showPermanant");
     $("#circle6").removeClass("inrCircHide");
@@ -142,15 +142,15 @@ $(document).ready(function() {
       .siblings()
       .addClass("inrCircHide");
   });
-  $("#slice6").mouseover(function() {
+  $("#slice6").mouseover(function () {
     $("#circle6").addClass("show");
   });
 
-  $("#slice6").mouseout(function() {
+  $("#slice6").mouseout(function () {
     $("#circle6").removeClass("show");
   });
 
-  $("#slice7").click(function() {
+  $("#slice7").click(function () {
     $(".cirPlc").removeClass("showPermanant");
     $("#circle7").toggleClass("showPermanant");
     $("#circle7").removeClass("inrCircHide");
@@ -158,15 +158,15 @@ $(document).ready(function() {
       .siblings()
       .addClass("inrCircHide");
   });
-  $("#slice7").mouseover(function() {
+  $("#slice7").mouseover(function () {
     $("#circle7").addClass("show");
   });
 
-  $("#slice7").mouseout(function() {
+  $("#slice7").mouseout(function () {
     $("#circle7").removeClass("show");
   });
 
-  $("#slice8").click(function() {
+  $("#slice8").click(function () {
     $(".cirPlc").removeClass("showPermanant");
     $("#circle8").toggleClass("showPermanant");
     $("#circle8").removeClass("inrCircHide");
@@ -174,15 +174,15 @@ $(document).ready(function() {
       .siblings()
       .addClass("inrCircHide");
   });
-  $("#slice8").mouseover(function() {
+  $("#slice8").mouseover(function () {
     $("#circle8").addClass("show");
   });
 
-  $("#slice8").mouseout(function() {
+  $("#slice8").mouseout(function () {
     $("#circle8").removeClass("show");
   });
 
-  $("#slice9").click(function() {
+  $("#slice9").click(function () {
     $(".cirPlc").removeClass("showPermanant");
     $("#circle9").toggleClass("showPermanant");
     $("#circle9").removeClass("inrCircHide");
@@ -190,15 +190,15 @@ $(document).ready(function() {
       .siblings()
       .addClass("inrCircHide");
   });
-  $("#slice9").mouseover(function() {
+  $("#slice9").mouseover(function () {
     $("#circle9").addClass("show");
   });
 
-  $("#slice9").mouseout(function() {
+  $("#slice9").mouseout(function () {
     $("#circle9").removeClass("show");
   });
 
-  $("#slice10").click(function() {
+  $("#slice10").click(function () {
     $(".cirPlc").removeClass("showPermanant");
     $("#circle10").toggleClass("showPermanant");
     $("#circle10").removeClass("inrCircHide");
@@ -206,15 +206,15 @@ $(document).ready(function() {
       .siblings()
       .addClass("inrCircHide");
   });
-  $("#slice10").mouseover(function() {
+  $("#slice10").mouseover(function () {
     $("#circle10").addClass("show");
   });
 
-  $("#slice10").mouseout(function() {
+  $("#slice10").mouseout(function () {
     $("#circle10").removeClass("show");
   });
 
-  $("#slice11").click(function() {
+  $("#slice11").click(function () {
     $(".cirPlc").removeClass("showPermanant");
     $("#circle11").toggleClass("showPermanant");
     $("#circle11").removeClass("inrCircHide");
@@ -222,15 +222,15 @@ $(document).ready(function() {
       .siblings()
       .addClass("inrCircHide");
   });
-  $("#slice11").mouseover(function() {
+  $("#slice11").mouseover(function () {
     $("#circle11").addClass("show");
   });
 
-  $("#slice11").mouseout(function() {
+  $("#slice11").mouseout(function () {
     $("#circle11").removeClass("show");
   });
 
-  $("#slice12").click(function() {
+  $("#slice12").click(function () {
     $(".cirPlc").removeClass("showPermanant");
     $("#circle12").toggleClass("showPermanant");
     $("#circle12").removeClass("inrCircHide");
@@ -238,15 +238,15 @@ $(document).ready(function() {
       .siblings()
       .addClass("inrCircHide");
   });
-  $("#slice12").mouseover(function() {
+  $("#slice12").mouseover(function () {
     $("#circle12").addClass("show");
   });
 
-  $("#slice12").mouseout(function() {
+  $("#slice12").mouseout(function () {
     $("#circle12").removeClass("show");
   });
 
-  $("#slice13").click(function() {
+  $("#slice13").click(function () {
     $(".cirPlc").removeClass("showPermanant");
     $("#circle13").toggleClass("showPermanant");
     $("#circle13").removeClass("inrCircHide");
@@ -254,15 +254,15 @@ $(document).ready(function() {
       .siblings()
       .addClass("inrCircHide");
   });
-  $("#slice13").mouseover(function() {
+  $("#slice13").mouseover(function () {
     $("#circle13").addClass("show");
   });
 
-  $("#slice13").mouseout(function() {
+  $("#slice13").mouseout(function () {
     $("#circle13").removeClass("show");
   });
 
-  $("#slice14").click(function() {
+  $("#slice14").click(function () {
     $(".cirPlc").removeClass("showPermanant");
     $("#circle14").toggleClass("showPermanant");
     $("#circle14").removeClass("inrCircHide");
@@ -270,15 +270,15 @@ $(document).ready(function() {
       .siblings()
       .addClass("inrCircHide");
   });
-  $("#slice14").mouseover(function() {
+  $("#slice14").mouseover(function () {
     $("#circle14").addClass("show");
   });
 
-  $("#slice14").mouseout(function() {
+  $("#slice14").mouseout(function () {
     $("#circle14").removeClass("show");
   });
 
-  $("#slice15").click(function() {
+  $("#slice15").click(function () {
     $(".cirPlc").removeClass("showPermanant");
     $("#circle15").toggleClass("showPermanant");
     $("#circle15").removeClass("inrCircHide");
@@ -286,15 +286,15 @@ $(document).ready(function() {
       .siblings()
       .addClass("inrCircHide");
   });
-  $("#slice15").mouseover(function() {
+  $("#slice15").mouseover(function () {
     $("#circle15").addClass("show");
   });
 
-  $("#slice15").mouseout(function() {
+  $("#slice15").mouseout(function () {
     $("#circle15").removeClass("show");
   });
 
-  $("#slice16").click(function() {
+  $("#slice16").click(function () {
     $(".cirPlc").removeClass("showPermanant");
     $("#circle16").toggleClass("showPermanant");
     $("#circle16").removeClass("inrCircHide");
@@ -302,15 +302,15 @@ $(document).ready(function() {
       .siblings()
       .addClass("inrCircHide");
   });
-  $("#slice16").mouseover(function() {
+  $("#slice16").mouseover(function () {
     $("#circle16").addClass("show");
   });
 
-  $("#slice16").mouseout(function() {
+  $("#slice16").mouseout(function () {
     $("#circle16").removeClass("show");
   });
 
-  $("#slice17").click(function() {
+  $("#slice17").click(function () {
     $(".cirPlc").removeClass("showPermanant");
     $("#circle17").toggleClass("showPermanant");
     $("#circle17").removeClass("inrCircHide");
@@ -318,15 +318,15 @@ $(document).ready(function() {
       .siblings()
       .addClass("inrCircHide");
   });
-  $("#slice17").mouseover(function() {
+  $("#slice17").mouseover(function () {
     $("#circle17").addClass("show");
   });
 
-  $("#slice17").mouseout(function() {
+  $("#slice17").mouseout(function () {
     $("#circle17").removeClass("show");
   });
 
-  $(".footerLeft > a.share").click(function() {
+  $(".footerLeft > a.share").click(function () {
     $(".footerLeft > .sharePage").toggleClass("active");
 
     if ($(".footerLeft > .sharePage").hasClass("active")) {
