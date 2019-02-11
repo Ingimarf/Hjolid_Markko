@@ -2,7 +2,6 @@
 ======================================================================================================*/
 * {
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 html,
@@ -16,6 +15,7 @@ body {
 body {
   background: url(../images/goal-1-grayImg.svg) no-repeat center center;
   background-size: 0 0;
+  -webkit-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
 }
 body.text1 {
@@ -125,6 +125,7 @@ img {
   position: relative;
 }
 .conatiner.mainContainer {
+  -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
 .conatiner.mainContainer.spiderMode {
@@ -137,8 +138,12 @@ img {
   min-height: 100%;
 }
 .container-fluid {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 50px;
 }
 .mainHeader {
@@ -147,7 +152,9 @@ img {
 }
 .mainHeader .logoContainer {
   display: inline-block;
-  flex-grow: 1;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
   text-align: center;
 }
 .logoContainer a {
@@ -168,6 +175,7 @@ img {
   font-family: "apex_newbold";
   font-size: 16px;
   display: inline-block;
+  -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
 .mainHeader .reset a:hover {
@@ -207,17 +215,24 @@ polyline {
 .leaderLine {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
-  animation: dash 3s linear backwards;
+  -webkit-animation: dash 3s linear backwards;
+          animation: dash 3s linear backwards;
   display: none;
 }
 .leaderLine.show {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
-  animation: dash 3s linear forwards;
+  -webkit-animation: dash 3s linear forwards;
+          animation: dash 3s linear forwards;
   display: block;
 }
 
 /*Animation*/
+@-webkit-keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
 @keyframes dash {
   to {
     stroke-dashoffset: 0;
@@ -236,6 +251,7 @@ polyline {
   font-size: 36px;
   font-family: "apex_newbold";
   color: #fff;
+  -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
 .sdg-Content .goalTxt {
@@ -259,7 +275,8 @@ polyline {
   width: 48px;
   position: absolute;
   top: 157px;
-  transform: rotate(12deg);
+  -webkit-transform: rotate(12deg);
+          transform: rotate(12deg);
   left: -16px;
 }
 .sdg-Content .ContGoal1 .goalTxt {
@@ -267,14 +284,16 @@ polyline {
   width: 50px;
   position: absolute;
   top: 54px;
-  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
   left: 0px;
 }
 .sdg-Content .ContGoal1 .goalNum {
   width: 50px;
   position: absolute;
   top: 13px;
-  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
   left: 0px;
 }
 
@@ -288,7 +307,8 @@ polyline {
   width: 42px;
   position: absolute;
   top: 140px;
-  transform: rotate(31deg);
+  -webkit-transform: rotate(31deg);
+          transform: rotate(31deg);
   left: -65px;
 }
 .sdg-Content .ContGoal2 .goalTxt {
@@ -296,14 +316,16 @@ polyline {
   width: 50px;
   position: absolute;
   top: 57px;
-  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
   left: -14px;
 }
 .sdg-Content .ContGoal2 .goalNum {
   width: 50px;
   position: absolute;
   top: 15px;
-  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
   left: -5px;
 }
 
@@ -317,7 +339,8 @@ polyline {
   width: 42px;
   position: absolute;
   top: 130px;
-  transform: rotate(55deg);
+  -webkit-transform: rotate(55deg);
+          transform: rotate(55deg);
   left: -99px;
 }
 .sdg-Content .ContGoal3 .goalTxt {
@@ -325,14 +348,16 @@ polyline {
   width: 70px;
   position: absolute;
   top: 61px;
-  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
   left: -39px;
 }
 .sdg-Content .ContGoal3 .goalNum {
   width: 50px;
   position: absolute;
   top: 36px;
-  transform: rotate(-5deg);
+  -webkit-transform: rotate(-5deg);
+          transform: rotate(-5deg);
   left: 9px;
 }
 
@@ -346,7 +371,8 @@ polyline {
   width: 38px;
   position: absolute;
   top: 57px;
-  transform: rotate(80deg);
+  -webkit-transform: rotate(80deg);
+          transform: rotate(80deg);
   left: -115px;
 }
 .sdg-Content .ContGoal4 .goalTxt {
@@ -354,14 +380,16 @@ polyline {
   width: 70px;
   position: absolute;
   top: 34px;
-  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
   left: -37px;
 }
 .sdg-Content .ContGoal4 .goalNum {
   width: 50px;
   position: absolute;
   top: 13px;
-  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
   left: 18px;
 }
 
@@ -375,7 +403,8 @@ polyline {
   width: 36px;
   position: absolute;
   top: 5px;
-  transform: rotate(5deg);
+  -webkit-transform: rotate(5deg);
+          transform: rotate(5deg);
   left: -125px;
 }
 .sdg-Content .ContGoal5 .goalTxt {
@@ -383,14 +412,16 @@ polyline {
   width: 70px;
   position: absolute;
   top: 30px;
-  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
   left: -43px;
 }
 .sdg-Content .ContGoal5 .goalNum {
   width: 50px;
   position: absolute;
   top: 17px;
-  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
   left: 11px;
 }
 
@@ -404,7 +435,8 @@ polyline {
   width: 34px;
   position: absolute;
   top: -30px;
-  transform: rotate(30deg);
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
   left: -103px;
 }
 .sdg-Content .ContGoal6 .goalTxt {
@@ -412,14 +444,16 @@ polyline {
   width: 90px;
   position: absolute;
   top: 25px;
-  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
   left: -27px;
 }
 .sdg-Content .ContGoal6 .goalNum {
   width: 50px;
   position: absolute;
   top: 49px;
-  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
   left: 9px;
 }
 
@@ -433,7 +467,8 @@ polyline {
   width: 42px;
   position: absolute;
   top: -67px;
-  transform: rotate(30deg);
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
   left: -78px;
 }
 .sdg-Content .ContGoal7 .goalTxt {
@@ -441,14 +476,16 @@ polyline {
   width: 90px;
   position: absolute;
   top: 24px;
-  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
   left: -27px;
 }
 .sdg-Content .ContGoal7 .goalNum {
   width: 50px;
   position: absolute;
   top: 46px;
-  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
   left: 0px;
 }
 
@@ -462,7 +499,8 @@ polyline {
   width: 40px;
   position: absolute;
   top: -73px;
-  transform: rotate(-24deg);
+  -webkit-transform: rotate(-24deg);
+          transform: rotate(-24deg);
   left: -36px;
 }
 .sdg-Content .ContGoal8 .goalTxt {
@@ -470,14 +508,16 @@ polyline {
   width: 90px;
   position: absolute;
   top: 19px;
-  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
   left: -25px;
 }
 .sdg-Content .ContGoal8 .goalNum {
   width: 50px;
   position: absolute;
   top: 58px;
-  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
   left: 4px;
 }
 
@@ -491,7 +531,8 @@ polyline {
   width: 42px;
   position: absolute;
   top: -92px;
-  transform: rotate(-3deg);
+  -webkit-transform: rotate(-3deg);
+          transform: rotate(-3deg);
   left: 13px;
 }
 .sdg-Content .ContGoal9 .goalTxt {
@@ -499,14 +540,16 @@ polyline {
   width: 90px;
   position: absolute;
   top: 6px;
-  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
   left: -12px;
 }
 .sdg-Content .ContGoal9 .goalNum {
   width: 50px;
   position: absolute;
   top: 41px;
-  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
   left: 10px;
 }
 
@@ -520,7 +563,8 @@ polyline {
   width: 42px;
   position: absolute;
   top: -95px;
-  transform: rotate(3deg);
+  -webkit-transform: rotate(3deg);
+          transform: rotate(3deg);
   left: 56px;
 }
 .sdg-Content .ContGoal10 .goalTxt {
@@ -528,14 +572,16 @@ polyline {
   width: 90px;
   position: absolute;
   top: 11px;
-  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
   left: -4px;
 }
 .sdg-Content .ContGoal10 .goalNum {
   width: 50px;
   position: absolute;
   top: 34px;
-  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
   left: 2px;
 }
 
@@ -549,7 +595,8 @@ polyline {
   width: 42px;
   position: absolute;
   top: -60px;
-  transform: rotate(40deg);
+  -webkit-transform: rotate(40deg);
+          transform: rotate(40deg);
   left: 98px;
 }
 .sdg-Content .ContGoal11 .goalTxt {
@@ -557,14 +604,16 @@ polyline {
   width: 110px;
   position: absolute;
   top: 23px;
-  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
   left: -7px;
 }
 .sdg-Content .ContGoal11 .goalNum {
   width: 50px;
   position: absolute;
   top: 48px;
-  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
   left: 7px;
 }
 
@@ -578,7 +627,8 @@ polyline {
   width: 42px;
   position: absolute;
   top: -23px;
-  transform: rotate(63deg);
+  -webkit-transform: rotate(63deg);
+          transform: rotate(63deg);
   left: 131px;
 }
 .sdg-Content .ContGoal12 .goalTxt {
@@ -586,14 +636,16 @@ polyline {
   width: 150px;
   position: absolute;
   top: 15px;
-  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
   left: -19px;
 }
 .sdg-Content .ContGoal12 .goalNum {
   width: 50px;
   position: absolute;
   top: 55px;
-  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
   left: 20px;
 }
 
@@ -607,7 +659,8 @@ polyline {
   width: 42px;
   position: absolute;
   top: 8px;
-  transform: rotate(5deg);
+  -webkit-transform: rotate(5deg);
+          transform: rotate(5deg);
   left: 129px;
 }
 .sdg-Content .ContGoal13 .goalTxt {
@@ -615,14 +668,16 @@ polyline {
   width: 80px;
   position: absolute;
   top: 27px;
-  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
   left: 23px;
 }
 .sdg-Content .ContGoal13 .goalNum {
   width: 50px;
   position: absolute;
   top: 22px;
-  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
   left: -9px;
 }
 
@@ -636,7 +691,8 @@ polyline {
   width: 42px;
   position: absolute;
   top: 59px;
-  transform: rotate(20deg);
+  -webkit-transform: rotate(20deg);
+          transform: rotate(20deg);
   left: 123px;
 }
 .sdg-Content .ContGoal14 .goalTxt {
@@ -644,14 +700,16 @@ polyline {
   width: 80px;
   position: absolute;
   top: 45px;
-  transform: rotate(2deg);
+  -webkit-transform: rotate(2deg);
+          transform: rotate(2deg);
   left: 29px;
 }
 .sdg-Content .ContGoal14 .goalNum {
   width: 50px;
   position: absolute;
   top: 27px;
-  transform: rotate(2deg);
+  -webkit-transform: rotate(2deg);
+          transform: rotate(2deg);
   left: -11px;
 }
 
@@ -665,7 +723,8 @@ polyline {
   width: 42px;
   position: absolute;
   top: 111px;
-  transform: rotate(33deg);
+  -webkit-transform: rotate(33deg);
+          transform: rotate(33deg);
   left: 103px;
 }
 .sdg-Content .ContGoal15 .goalTxt {
@@ -673,14 +732,16 @@ polyline {
   width: 50px;
   position: absolute;
   top: 72px;
-  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
   left: 34px;
 }
 .sdg-Content .ContGoal15 .goalNum {
   width: 50px;
   position: absolute;
   top: 28px;
-  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
   left: 0px;
 }
 
@@ -694,7 +755,8 @@ polyline {
   width: 42px;
   position: absolute;
   top: 140px;
-  transform: rotate(-30deg);
+  -webkit-transform: rotate(-30deg);
+          transform: rotate(-30deg);
   left: 67px;
 }
 .sdg-Content .ContGoal16 .goalTxt {
@@ -702,14 +764,16 @@ polyline {
   width: 50px;
   position: absolute;
   top: 74px;
-  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
   left: 20px;
 }
 .sdg-Content .ContGoal16 .goalNum {
   width: 50px;
   position: absolute;
   top: 28px;
-  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
   left: 0px;
 }
 
@@ -723,50 +787,62 @@ polyline {
   width: 42px;
   position: absolute;
   top: 155px;
-  transform: rotate(-12deg);
+  -webkit-transform: rotate(-12deg);
+          transform: rotate(-12deg);
   left: 34px;
 }
 .sdg-Content .ContGoal17 .goalTxt {
   text-transform: uppercase;
   position: absolute;
   top: 76px;
-  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
   left: 4px;
 }
 .sdg-Content .ContGoal17 .goalNum {
   width: 50px;
   position: absolute;
   top: 26px;
-  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
   left: 9px;
 }
 
 /*Scaling*/
 .scaleTransfrom {
-  transform: scale(1, 1);
+  -webkit-transform: scale(1, 1);
+          transform: scale(1, 1);
+  -webkit-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
 }
 .slices a.sliceActive .scaleTransfrom {
-  transform: scale(1.04, 1.04);
+  -webkit-transform: scale(1.04, 1.04);
+          transform: scale(1.04, 1.04);
 }
 .slices a.sliceSmall .scaleTransfrom {
-  transform: scale(0.95, 0.95);
+  -webkit-transform: scale(0.95, 0.95);
+          transform: scale(0.95, 0.95);
 }
 
 .slices2 .darkSlice {
-  transform: scale(1, 1);
+  -webkit-transform: scale(1, 1);
+          transform: scale(1, 1);
+  -webkit-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
 }
 .slices2 .darkSlice.dSliceTrans {
-  transform: scale(0.95, 0.95);
+  -webkit-transform: scale(0.95, 0.95);
+          transform: scale(0.95, 0.95);
 }
 .slices2 .darkSlice.hideCont {
-  transform: scale(1.04, 1.04);
+  -webkit-transform: scale(1.04, 1.04);
+          transform: scale(1.04, 1.04);
 }
 
 .sdg-Content > div {
   opacity: 1;
   visibility: visible;
+  -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
 .sdg-Content > div.hideCont {
@@ -784,6 +860,7 @@ polyline {
   bottom: 0;
   height: 100%;
   opacity: 0;
+  -webkit-transition: all 1.5s ease-in-out;
   transition: all 1.5s ease-in-out;
   visibility: hidden; /*pointer-events: none;*/
 }
@@ -799,6 +876,7 @@ polyline {
 .sdgTextBlocks > div {
   visibility: visible;
   opacity: 1;
+  -webkit-transition: all 1.5s ease-in-out;
   transition: all 1.5s ease-in-out;
   display: none;
 }
@@ -920,6 +998,7 @@ polyline {
 .circle .cirPlc {
   visibility: hidden;
   opacity: 0;
+  -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
 .circle .cirPlc.show {
@@ -948,7 +1027,8 @@ polyline {
   width: 100%;
   height: 44px;
   background: #fff;
-  box-shadow: 0 0 10px #ccc;
+  -webkit-box-shadow: 0 0 10px #ccc;
+          box-shadow: 0 0 10px #ccc;
 }
 
 .MainFooter .footerLeft {
@@ -967,6 +1047,7 @@ polyline {
   max-width: 0;
   max-height: 0;
   overflow: hidden;
+  -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
 .MainFooter .footerLeft .sharePage.active {
@@ -1011,24 +1092,21 @@ select#category {
   background-color: #fff;
   background-image: none;
   border: 1px solid #ccc;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
   border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   -webkit-transition: border-color 0.15s ease-in-out,
     box-shadow 0.15s ease-in-out;
-  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
   -webkit-transition: border-color 0.15s ease-in-out,
     -webkit-box-shadow 0.15s ease-in-out;
   transition: border-color 0.15s ease-in-out,
     -webkit-box-shadow 0.15s ease-in-out;
-  -moz-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s,
-    -moz-box-shadow ease-in-out 0.15s;
+  -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
-    -webkit-box-shadow 0.15s ease-in-out, -moz-box-shadow 0.15s ease-in-out;
+    -webkit-box-shadow 0.15s ease-in-out;
 }
 select#category:not(.tabbing):focus,
 select#category:not(.tabbing):active {
@@ -1038,8 +1116,6 @@ select#category:focus {
   border-color: rgba(0, 130, 63, 0.4);
   outline: 0;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
-    0 0 8px rgba(0, 130, 63, 0.6);
-  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
     0 0 8px rgba(0, 130, 63, 0.6);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
     0 0 8px rgba(0, 130, 63, 0.6);
