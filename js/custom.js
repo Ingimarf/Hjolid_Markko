@@ -1,53 +1,38 @@
 // Fetch data from data.json
 var SDGGoals;
-jQuery.getJSON("./data.json").then(data => {
+jQuery.getJSON("./data.json").then(function (data) {
   SDGGoals = data;
+  // Click on first slice when data has loaded
+  onSliceClickHandler(1);
 });
+
+// On slice click handler
+function onSliceClickHandler(id) {
+  setFocusToSdgBlocks();
+
+  var yy = SDGGoals.linking[id - 1];
+  for (var index = 1; index <= SDGGoals.linking.length; index++) {
+    var xx = "text" + parseInt(index);
+    document.getElementById("sdgText" + parseInt(index)).innerHTML = yy[xx];
+  }
+
+  $(".slices > a").removeClass("hideCont");
+  $(".sdg-Content > div, .sdgTextBlocks > div, .lines .leaderLine, .slices2 .darkSlice").removeClass("hideCont");
+  $($(this).data("target")).addClass("hideCont");
+
+  $(".leaderLine").addClass("show");
+  $(".sdgTextBlocks").addClass("show");
+  $(".sdgTextBlocks > div").addClass("change");
+  $(".reset").addClass("resetActive");
+  $(".mainContainer").addClass("spiderMode");
+
+  setTimeout(function () {
+    $(".sdgTextBlocks > div").removeClass("change");
+  }, 800);
+}
+
 // Set click handlers and more when document is ready
 $(document).ready(function () {
-  $(".slices > a").click(function () {
-    $(".leaderLine").addClass("show");
-    $(".sdgTextBlocks").addClass("show");
-    $(".sdgTextBlocks > div").addClass("change");
-    $(".reset").addClass("resetActive");
-    $(".mainContainer").addClass("spiderMode");
-
-    setTimeout(function () {
-      $(".sdgTextBlocks > div").removeClass("change");
-    }, 800);
-  });
-
-  $(".slices > a.sliceActive").click(function () {
-    alert();
-  });
-
-  $(".slices > a").click(function (event) {
-    var first = $(event.target)
-      .closest("a")
-      .attr("class")
-      .split(" ")[0];
-    var Bodyfirst = $(event.target)
-      .closest("body")
-      .attr("class");
-    $("body").removeClass(Bodyfirst);
-    $("body").addClass(first);
-  });
-
-  $(".reset > a").on("click", function () {
-    $(".slices > a").removeClass("hideCont");
-    $(".leaderLine").removeClass("show");
-    $(".sdgTextBlocks").removeClass("show");
-    $(".slices > a").removeClass("sliceSmall");
-    $(".sliceActive").removeClass("sliceActive");
-    $(".sdg-Content > div").removeClass("hideCont");
-    $(".slices2 .darkSlice").removeClass("dSliceTrans");
-    $(".slices2 .darkSlice").removeClass("hideCont");
-    $(".cirPlc").removeClass("showPermanant");
-    $(".reset").removeClass("resetActive");
-    $("body").removeClass();
-    $(".mainContainer").removeClass("spiderMode");
-    $(".circle > .cirPlc").removeClass("inrCircHide");
-  });
 
   //Circle-1
   $("#slice1").click(function () {
@@ -325,44 +310,8 @@ $(document).ready(function () {
   $("#slice17").mouseout(function () {
     $("#circle17").removeClass("show");
   });
-
-  $(".footerLeft > a.share").click(function () {
-    $(".footerLeft > .sharePage").toggleClass("active");
-
-    if ($(".footerLeft > .sharePage").hasClass("active")) {
-      $(this).attr("aria-expanded", "true");
-    } else {
-      $(this).attr("aria-expanded", "false");
-    }
-  });
 });
 
-//$(document).ready()
 function setFocusToSdgBlocks() {
   $("#sdgTextBlocks").focus();
-  console.log("triggered");
-}
-
-function bindSDGValue(el) {
-  setFocusToSdgBlocks();
-  var currentId = $(el).attr("id");
-  for (var i = 0; i < SDGGoals.linking.length; i++) {
-    if (currentId === "slice" + SDGGoals.linking[i].id) {
-      var yy = SDGGoals.linking[i];
-      for (var index = 1; index <= SDGGoals.linking.length; index++) {
-        var xx = "text" + parseInt(index);
-        document.getElementById("sdgText" + parseInt(index)).innerHTML = yy[xx];
-        // document.getElementById("sdgText" + parseInt(index)).setAttribute("tabindex", "-1");
-      }
-      var isEmpty = document.getElementById("sdgText1").innerHTML === "";
-
-      // if(isEmpty)
-      // {
-
-      //     document.getElementById("sdgText2").focus();
-      // } else {
-      //     document.getElementById("sdgText1").focus();
-      // }
-    }
-  }
 }
