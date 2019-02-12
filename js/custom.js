@@ -27,15 +27,20 @@ $(document).ready(function () {
   function onSliceClickHandler(id) {
     setFocusToSdgBlocks();
 
-    var yy = SDGGoals.linking[id - 1];
-    for (var index = 1; index <= SDGGoals.linking.length; index++) {
-      var xx = "text" + parseInt(index);
-      document.getElementById("sdgText" + parseInt(index)).innerHTML = yy[xx];
-    }
-
+    // Un-hide all lines and slices
     $(".slices > a").removeClass("hideCont");
     $(".sdg-Content > div, .sdgTextBlocks > div, .lines .leaderLine, .slices2 .darkSlice").removeClass("hideCont");
-    $($(this).data("target")).addClass("hideCont");
+
+    var yy = SDGGoals.linking[id - 1];
+    for (var index = 1; index <= 17; index++) {
+      var xx = "text" + parseInt(index);
+      // Hide certain slices and their lines if they are irrelevant to current data point
+      if (yy[xx] === '') {
+        $('.slices > a.' + xx).addClass('hideCont');
+        $('#gridLine' + index).addClass('hideCont');
+      }
+      document.getElementById("sdgText" + parseInt(index)).innerHTML = yy[xx];
+    }
 
     $(".leaderLine").addClass("show");
     $(".sdgTextBlocks").addClass("show");
