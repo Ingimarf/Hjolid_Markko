@@ -35,11 +35,11 @@ $(document).ready(function () {
     for (var index = 1; index <= 17; index++) {
       var xx = "text" + parseInt(index);
       // Hide certain slices and their lines if they are irrelevant to current data point
-      if (yy[xx] === '') {
+      if (!yy[xx]) {
         $('.slices > a.' + xx).addClass('hideCont');
         $('#gridLine' + index).addClass('hideCont');
       }
-      document.getElementById("sdgText" + parseInt(index)).innerHTML = yy[xx];
+      document.getElementById("sdgText" + parseInt(index)).innerHTML = yy[xx] || '';
     }
 
     $(".leaderLine").addClass("show");
