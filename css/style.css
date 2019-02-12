@@ -15,95 +15,8 @@ body {
 }
 
 body {
-  background: url(../images/goal-1-grayImg.svg) no-repeat center center;
-  background-size: 0 0;
   -webkit-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
-}
-
-body.text1 {
-  background: url(../images/goal-1-grayImg.svg) no-repeat center center;
-  background-size: 100% 100%;
-}
-
-body.text2 {
-  background: url(../images/goal-2-grayImg.svg) no-repeat center center;
-  background-size: 100% 100%;
-}
-
-body.text3 {
-  background: url(../images/goal-3-grayImg.svg) no-repeat center center;
-  background-size: 100% 100%;
-}
-
-body.text4 {
-  background: url(../images/goal-4-grayImg.svg) no-repeat center center;
-  background-size: 100% 100%;
-}
-
-body.text5 {
-  background: url(../images/goal-5-grayImg.svg) no-repeat center center;
-  background-size: 100% 100%;
-}
-
-body.text6 {
-  background: url(../images/goal-6-grayImg.svg) no-repeat center center;
-  background-size: 100% 100%;
-}
-
-body.text7 {
-  background: url(../images/goal-7-grayImg.svg) no-repeat center center;
-  background-size: 100% 100%;
-}
-
-body.text8 {
-  background: url(../images/goal-8-grayImg.svg) no-repeat center center;
-  background-size: 100% 100%;
-}
-
-body.text9 {
-  background: url(../images/goal-9-grayImg.svg) no-repeat center center;
-  background-size: 100% 100%;
-}
-
-body.text10 {
-  background: url(../images/goal-10-grayImg.svg) no-repeat center center;
-  background-size: 100% 100%;
-}
-
-body.text11 {
-  background: url(../images/goal-11-grayImg.svg) no-repeat center center;
-  background-size: 100% 100%;
-}
-
-body.text12 {
-  background: url(../images/goal-12-grayImg.svg) no-repeat center center;
-  background-size: 100% 100%;
-}
-
-body.text13 {
-  background: url(../images/goal-13-grayImg.svg) no-repeat center center;
-  background-size: 100% 100%;
-}
-
-body.text14 {
-  background: url(../images/goal-14-grayImg.svg) no-repeat center center;
-  background-size: 100% 100%;
-}
-
-body.text15 {
-  background: url(../images/goal-15-grayImg.svg) no-repeat center center;
-  background-size: 100% 100%;
-}
-
-body.text16 {
-  background: url(../images/goal-16-grayImg.svg) no-repeat center center;
-  background-size: 100% 100%;
-}
-
-body.text17 {
-  background: url(../images/goal-17-grayImg.svg) no-repeat center center;
-  background-size: 100% 100%;
 }
 
 ul,
@@ -200,6 +113,7 @@ img {
 
 .mainHeader .logo {
   height: 100px;
+  padding: 16px;
 }
 
 .mainHeader .reset {
@@ -1115,10 +1029,10 @@ polyline {
 }
 
 .innerLogo {
-  width: 171px;
+  width: 90px;
   position: absolute;
-  top: 323px;
-  left: 463px;
+  top: calc(50% - 80px);
+  left: calc(50% - 45px);
   z-index: 0;
 }
 
