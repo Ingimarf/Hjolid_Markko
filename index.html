@@ -23,138 +23,133 @@
 					<img src="images/logo.png" class="logo" alt="Kópavogsbær Logo">
 				</a>
 			</div>
+			<h1 class="pageTitle">Heimsmarkmiðin</h1>
 			<div class="dropdownMenu">
 				<select name="category" id="category">
-					<option value="0">Forsíða</option>
-					<option value="1">Barnasáttmálinn</option>
-					<option value="1">Lorem ipsum</option>
+					<!-- Options are populated in JS file -->
 				</select>
 			</div>
-			<!-- <div class="reset">
-					<a href="javascript:void(0);">Forsíða</a>
-				</div> -->
 		</div>
 	</header>
 	<section class="svgPart">
 		<div class="conatiner-fluid">
 			<div class="conatiner mainContainer">
-				<span class="screen-reader-text"> Clicking on the following image link will update the content on the page</span>
+				<span class="screen-reader-text">Clicking on the following image link will update the content on the page</span>
 				<svg>
 					<g transform="translate(550,405)">
 						<g class="slices">
-							<a xlink:href="javascript:void(0);" onclick="onSliceClickHandler(1)" id="slice1" data-target=" .darkSlice1"
-							 class="text1">
+							<a xlink:href="javascript:void(0);" id="slice1" data-target=" .darkSlice1" class="text1">
 								<g class="scaleTransfrom">
 									<path class="slice" d="M2.029852069586738e-14,-331.5A331.5,331.5 0 0,1 119.75161234104118,-309.114544047544L41.452481194975796,-107.00118832414984A114.75000000000001,114.75000000000001 0 0,0 7.02641101010794e-15,-114.75000000000001Z"
 									 style="fill: rgb(229, 35, 62);"></path>
 								</g>
 							</a>
-							<a xlink:href="javascript:void(0);" onclick="onSliceClickHandler(2)" id="slice2" data-target="#goal2Cont,  #gridLine2, #sdgText2, .darkSlice2"
+							<a xlink:href="javascript:void(0);" id="slice2" data-target="#goal2Cont,  #gridLine2, #sdgText2, .darkSlice2"
 							 class="text2">
 								<g class="scaleTransfrom">
 									<path class="slice" d="M119.75161234104118,-309.114544047544A331.5,331.5 0 0,1 223.33010586883364,-244.98145605864858L77.30657510844243,-84.80127325107067A114.75000000000001,114.75000000000001 0 0,0 41.452481194975796,-107.00118832414984Z"
 									 style="fill: rgb(235, 180, 51);"></path>
 								</g>
 							</a>
-							<a xlink:href="javascript:void(0);" onclick="onSliceClickHandler(3)" id="slice3" data-target="#goal3Cont,  #slice13,  #slice2, #gridLine3,  #gridLine13,  #gridLine2, #sdgText3, #gridLine7, #slice7, .darkSlice3"
+							<a xlink:href="javascript:void(0);" id="slice3" data-target="#goal3Cont,  #slice13,  #slice2, #gridLine3,  #gridLine13,  #gridLine2, #sdgText3, #gridLine7, #slice7, .darkSlice3"
 							 class="text3">
 								<g class="scaleTransfrom">
 									<path class="slice" d="M223.33010586883364,-244.98145605864858A331.5,331.5 0 0,1 296.7466310842031,-147.76226493992257L102.71998768299339,-51.14847632535782A114.75000000000001,114.75000000000001 0 0,0 77.30657510844243,-84.80127325107067Z"
 									 style="fill: rgb(74, 159, 65);"></path>
 								</g>
 							</a>
-							<a xlink:href="javascript:void(0);" onclick="onSliceClickHandler(4)" id="slice4" data-target="#goal4Cont,  #gridLine4, #sdgText4, .darkSlice4"
+							<a xlink:href="javascript:void(0);" id="slice4" data-target="#goal4Cont,  #gridLine4, #sdgText4, .darkSlice4"
 							 class="text4">
 								<g class="scaleTransfrom">
 									<path class="slice" d="M296.7466310842031,-147.76226493992257A331.5,331.5 0 0,1 330.0858794418039,-30.586961162084815L114.26049672985522,-10.587794248413976A114.75000000000001,114.75000000000001 0 0,0 102.71998768299339,-51.14847632535782Z"
 									 style="fill: rgb(199, 33, 47);"></path>
 								</g>
 							</a>
-							<a xlink:href="javascript:void(0);" onclick="onSliceClickHandler(5)" id="slice5" data-target="#goal5Cont,  #gridLine5, #sdgText5, .darkSlice5"
+							<a xlink:href="javascript:void(0);" id="slice5" data-target="#goal5Cont,  #gridLine5, #sdgText5, .darkSlice5"
 							 class="text5">
 								<g class="scaleTransfrom">
 									<path class="slice" d="M330.0858794418039,-30.586961162084815A331.5,331.5 0 0,1 318.8452007117896,90.71928120889523L110.36949255408102,31.402828110771427A114.75000000000001,114.75000000000001 0 0,0 114.26049672985522,-10.587794248413976Z"
 									 style="fill: rgb(235, 64, 46);"></path>
 								</g>
 							</a>
-							<a xlink:href="javascript:void(0);" onclick="onSliceClickHandler(6)" id="slice6" data-target="#goal6Cont,  #gridLine6, #sdgText6, .darkSlice6"
+							<a xlink:href="javascript:void(0);" id="slice6" data-target="#goal6Cont,  #gridLine6, #sdgText6, .darkSlice6"
 							 class="text6">
 								<g class="scaleTransfrom">
 									<path class="slice" d="M318.8452007117896,90.71928120889523A331.5,331.5 0 0,1 264.54271084339956,199.77338195972325L91.57247683040755,69.15232452451959A114.75000000000001,114.75000000000001 0 0,0 110.36949255408102,31.402828110771427Z"
 									 style="fill: rgb(34, 188, 238);"></path>
 								</g>
 							</a>
-							<a xlink:href="javascript:void(0);" onclick="onSliceClickHandler(7)" id="slice7" data-target="#goal7Cont,  #gridLine7, #sdgText7, .darkSlice7"
+							<a xlink:href="javascript:void(0);" id="slice7" data-target="#goal7Cont,  #gridLine7, #sdgText7, .darkSlice7"
 							 class="text7">
 								<g class="scaleTransfrom">
 									<path class="slice" d="M264.54271084339956,199.77338195972325A331.5,331.5 0 0,1 174.51226199384377,281.8469804943669L60.40809069017669,97.56241632497317A114.75000000000001,114.75000000000001 0 0,0 91.57247683040755,69.15232452451959Z"
 									 style="fill: rgb(252, 196, 21);"></path>
 								</g>
 							</a>
-							<a xlink:href="javascript:void(0);" onclick="onSliceClickHandler(8)" id="slice8" data-target="#goal8Cont,  #gridLine8, #sdgText8, .darkSlice8"
+							<a xlink:href="javascript:void(0);" id="slice8" data-target="#goal8Cont,  #gridLine8, #sdgText8, .darkSlice8"
 							 class="text8">
 								<g class="scaleTransfrom">
 									<path class="slice" d="M174.51226199384377,281.8469804943669A331.5,331.5 0 0,1 60.91296515619349,325.8555825452134L21.085257169451594,112.79616318872772A114.75000000000001,114.75000000000001 0 0,0 60.40809069017669,97.56241632497317Z"
 									 style="fill: rgb(163, 28, 68);"></path>
 								</g>
 							</a>
-							<a xlink:href="javascript:void(0);" onclick="onSliceClickHandler(9)" id="slice9" data-target="#goal9Cont , #gridLine9, #sdgText9, .darkSlice9"
+							<a xlink:href="javascript:void(0);" id="slice9" data-target="#goal9Cont , #gridLine9, #sdgText9, .darkSlice9"
 							 class="text9">
 								<g class="scaleTransfrom">
 									<path class="slice" d="M60.91296515619349,325.8555825452134A331.5,331.5 0 0,1 -60.91296515619258,325.8555825452135L-21.085257169451282,112.79616318872777A114.75000000000001,114.75000000000001 0 0,0 21.085257169451594,112.79616318872772Z"
 									 style="fill: rgb(241, 104, 49);"></path>
 								</g>
 							</a>
-							<a xlink:href="javascript:void(0);" onclick="onSliceClickHandler(10)" id="slice10" data-target="#goal10Cont, #slice12,  #gridLine10, #sdgText10, #gridLine12, .darkSlice10"
+							<a xlink:href="javascript:void(0);" id="slice10" data-target="#goal10Cont, #slice12,  #gridLine10, #sdgText10, #gridLine12, .darkSlice10"
 							 class="text10">
 								<g class="scaleTransfrom">
 									<path class="slice" d="M-60.91296515619258,325.8555825452135A331.5,331.5 0 0,1 -174.51226199384297,281.84698049436736L-60.40809069017642,97.56241632497333A114.75000000000001,114.75000000000001 0 0,0 -21.085257169451282,112.79616318872777Z"
 									 style="fill: rgb(231, 19, 104);"></path>
 								</g>
 							</a>
-							<a xlink:href="javascript:void(0);" onclick="onSliceClickHandler(11)" id="slice11" data-target="#goal11Cont,  #gridLine11, #sdgText11, .darkSlice11"
+							<a xlink:href="javascript:void(0);" id="slice11" data-target="#goal11Cont,  #gridLine11, #sdgText11, .darkSlice11"
 							 class="text11">
 								<g class="scaleTransfrom">
 									<path class="slice" d="M-174.51226199384297,281.84698049436736A331.5,331.5 0 0,1 -264.54271084339905,199.77338195972396L-91.57247683040737,69.15232452451984A114.75000000000001,114.75000000000001 0 0,0 -60.40809069017642,97.56241632497333Z"
 									 style="fill: rgb(248, 158, 46);"></path>
 								</g>
 							</a>
-							<a xlink:href="javascript:void(0);" onclick="onSliceClickHandler(12)" id="slice12" data-target="#goal12Cont, #slice10, #gridLine10, #gridLine12, #sdgText12, .darkSlice12"
+							<a xlink:href="javascript:void(0);" id="slice12" data-target="#goal12Cont, #slice10, #gridLine10, #gridLine12, #sdgText12, .darkSlice12"
 							 class="text12">
 								<g class="scaleTransfrom">
 									<path class="slice" d="M-264.54271084339905,199.77338195972396A331.5,331.5 0 0,1 -318.84520071178935,90.7192812088961L-110.36949255408094,31.402828110771733A114.75000000000001,114.75000000000001 0 0,0 -91.57247683040737,69.15232452451984Z"
 									 style="fill: rgb(202, 155, 47);"></path>
 								</g>
 							</a>
-							<a xlink:href="javascript:void(0);" onclick="onSliceClickHandler(13)" id="slice13" data-target="#goal13Cont,  #gridLine13, #sdgText13, .darkSlice13"
+							<a xlink:href="javascript:void(0);" id="slice13" data-target="#goal13Cont,  #gridLine13, #sdgText13, .darkSlice13"
 							 class="text13">
 								<g class="scaleTransfrom">
 									<path class="slice" d="M-318.84520071178935,90.7192812088961A331.5,331.5 0 0,1 -330.085879441804,-30.586961162083895L-114.26049672985525,-10.587794248413658A114.75000000000001,114.75000000000001 0 0,0 -110.36949255408094,31.402828110771733Z"
 									 style="fill: rgb(67, 132, 76);"></path>
 								</g>
 							</a>
-							<a xlink:href="javascript:void(0);" onclick="onSliceClickHandler(14)" id="slice14" data-target="#goal14Cont, #slice1, #gridLine14, #sdgText14, #gridLine1, .darkSlice14"
+							<a xlink:href="javascript:void(0);" id="slice14" data-target="#goal14Cont, #slice1, #gridLine14, #sdgText14, #gridLine1, .darkSlice14"
 							 class="text14">
 								<g class="scaleTransfrom">
 									<path class="slice" d="M-330.085879441804,-30.586961162083895A331.5,331.5 0 0,1 -296.7466310842035,-147.76226493992175L-102.71998768299353,-51.148476325357535A114.75000000000001,114.75000000000001 0 0,0 -114.26049672985525,-10.587794248413658Z"
 									 style="fill: rgb(23, 148, 214);"></path>
 								</g>
 							</a>
-							<a xlink:href="javascript:void(0);" onclick="onSliceClickHandler(15)" id="slice15" data-target="#goal15Cont, #gridLine15, #sdgText15, .darkSlice15"
+							<a xlink:href="javascript:void(0);" id="slice15" data-target="#goal15Cont, #gridLine15, #sdgText15, .darkSlice15"
 							 class="text15">
 								<g class="scaleTransfrom">
 									<path class="slice" d="M-296.7466310842035,-147.76226493992175A331.5,331.5 0 0,1 -223.33010586883435,-244.98145605864795L-77.30657510844267,-84.80127325107046A114.75000000000001,114.75000000000001 0 0,0 -102.71998768299353,-51.148476325357535Z"
 									 style="fill: rgb(98, 180, 70);"></path>
 								</g>
 							</a>
-							<a xlink:href="javascript:void(0);" onclick="onSliceClickHandler(16)" id="slice16" data-target="#goal16Cont, #gridLine16, #sdgText16, .darkSlice16"
+							<a xlink:href="javascript:void(0);" id="slice16" data-target="#goal16Cont, #gridLine16, #sdgText16, .darkSlice16"
 							 class="text16">
 								<g class="scaleTransfrom">
 									<path class="slice" d="M-223.33010586883435,-244.98145605864795A331.5,331.5 0 0,1 -119.75161234104202,-309.11454404754363L-41.45248119497609,-107.00118832414972A114.75000000000001,114.75000000000001 0 0,0 -77.30657510844267,-84.80127325107046Z"
 									 style="fill: rgb(18, 108, 161);"></path>
 								</g>
 							</a>
-							<a xlink:href="javascript:void(0);" onclick="onSliceClickHandler(17)" id="slice17" data-target="#goal17Cont,  #gridLine17, #sdgText17, .darkSlice17"
+							<a xlink:href="javascript:void(0);" id="slice17" data-target="#goal17Cont,  #gridLine17, #sdgText17, .darkSlice17"
 							 class="text17">
 								<g class="scaleTransfrom">
 									<path class="slice" d="M-119.75161234104202,-309.11454404754363A331.5,331.5 0 0,1 -9.441890004793767e-13,-331.5L-3.26834654012092e-13,-114.75000000000001A114.75000000000001,114.75000000000001 0 0,0 -41.45248119497609,-107.00118832414972Z"
